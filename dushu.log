@@ -1,0 +1,4470 @@
+2020-08-01 21:51:12 [scrapy.utils.log] INFO: Scrapy 2.2.1 started (bot: dushu)
+2020-08-01 21:51:12 [scrapy.utils.log] INFO: Versions: lxml 4.5.2.0, libxml2 2.9.5, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 20.3.0, Python 3.7.6 (tags/v3.7.6:43364a7ae0, Dec 19 2019, 00:42:30) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.1.0 (OpenSSL 1.1.1g  21 Apr 2020), cryptography 3.0, Platform Windows-7-6.1.7601-SP1
+2020-08-01 21:51:12 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'dushu',
+ 'DUPEFILTER_CLASS': 'scrapy_redis.dupefilter.RFPDupeFilter',
+ 'LOG_FILE': 'D:\\Python\\pythonTools\\Python\\dushu\\dushu.log',
+ 'LOG_LEVEL': 'INFO',
+ 'NEWSPIDER_MODULE': 'dushu.spiders',
+ 'SCHEDULER': 'scrapy_redis.scheduler.Scheduler',
+ 'SPIDER_MODULES': ['dushu.spiders'],
+ 'USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, '
+               'like Gecko) Chrome/70.0.3538.25 Safari/537.36 '
+               'Core/1.70.3704.400 QQBrowser/10.4.3587.400'}
+2020-08-01 21:51:12 [scrapy.extensions.telnet] INFO: Telnet Password: 43cd3ab4fc86976e
+2020-08-01 21:51:12 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2020-08-01 21:51:12 [guoxue] INFO: Reading start URLs from redis key 'gx_starl_urls' (batch size: 16, encoding: utf-8
+2020-08-01 21:51:14 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2020-08-01 21:51:14 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2020-08-01 21:51:14 [scrapy.middleware] INFO: Enabled item pipelines:
+['dushu.pipelines.DushuPipeline']
+2020-08-01 21:51:14 [scrapy.core.engine] INFO: Spider opened
+2020-08-01 21:51:14 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2020-08-01 21:51:14 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2020-08-01 21:51:24 [py.warnings] WARNING: c:\users\administrator\appdata\local\programs\python\python37\lib\site-packages\scrapy\spiders\__init__.py:82: UserWarning: Spider.make_requests_from_url method is deprecated: it will be removed and not be called by the default Spider.start_requests method in future Scrapy releases. Please override Spider.start_requests method instead.
+  "Spider.make_requests_from_url method is deprecated: "
+
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/124164/',
+ 'id': 'a9abb3278296470eb9e5c19b811a79bf',
+ 'name': '闽都记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/124163/',
+ 'id': 'fd3b54d3ef384465a7ebb0e8e3ceac38',
+ 'name': '闽部疏',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/124162/',
+ 'id': 'cc1a1665457f468ab042562e1dce7401',
+ 'name': '闽县乡土志',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/124161/',
+ 'id': 'da5d6b65076e46ceaf668685b7344e3a',
+ 'name': '长安志',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/124160/',
+ 'id': 'fe0988062dc542fab2b5ff80cae01edf',
+ 'name': '长乐六里志',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/124159/',
+ 'id': '155aa31704504dbfa64443b5b623224a',
+ 'name': '锦州府志',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/124158/',
+ 'id': 'dfd0977607014e2693b2bde4797e49c3',
+ 'name': '锦县志',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106803/',
+ 'id': '50f98d9b57e24d329eef16ff46e4933d',
+ 'name': '妇德四箴',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/124157/',
+ 'id': 'ca6bd4103e3b4946bba9a431a2f79f88',
+ 'name': '铁岭县志',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/124156/',
+ 'id': '239c08677a0547c193d4b7e0ec40dd7f',
+ 'name': '钵池山志',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/124155/',
+ 'id': '22e9332f52234e88b9d6f6eff5e4b6fa',
+ 'name': '钦定满洲源流考',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/124154/',
+ 'id': '1b8baebe22034d1e8ea9a9e52c018237',
+ 'name': '钦定日下旧闻考',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/124153/',
+ 'id': 'b8a075b769624c2dbbf46c1cc5a85ff5',
+ 'name': '金鳌退食笔记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/124152/',
+ 'id': 'd4b5dc82c0bf44d087b3d95449c1dc93',
+ 'name': '金陵物产风土志',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106802/',
+ 'id': '8dbcd9b4162d4205be913abc556777b3',
+ 'name': '褔建通志臺灣府',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/124151/',
+ 'id': '1dd97e717e6f4880bbdeb1d0a11b9f12',
+ 'name': '金门志',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/124150/',
+ 'id': '0026b163e7014cbc92df4c3df66b8cbc',
+ 'name': '重修福建台湾府志',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106801/',
+ 'id': 'bae70a1aab2a484aadbccb393b16c53b',
+ 'name': '福建臺灣奏摺',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106800/',
+ 'id': '7f57a70421f7416d9e826a8409eb0ec0',
+ 'name': '冯燕传',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106799/',
+ 'id': 'c228b088fa6f4c96aa7b06af96e27a80',
+ 'name': '粉墨丛谈',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106798/',
+ 'id': '704520e6b00349c5a899765d520dedae',
+ 'name': '焚椒录',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/124149/',
+ 'id': '1d3e80baacdf462ba34ca6d41f8d1587',
+ 'name': '重修台郡各建筑图说',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/124148/',
+ 'id': 'da96f12e078443a38d6fce4412c1bf0a',
+ 'name': '重修台湾府志',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/124147/',
+ 'id': '6c14135513084e8c9b497715de9ccd74',
+ 'name': '重修台湾府志',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/124121/',
+ 'id': 'e39af8f6d97c43619e492cd04c060ec2',
+ 'name': '重修台湾县志',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/124120/',
+ 'id': 'a429fcdd03fe415a85d21cd03fa25879',
+ 'name': '重修凤山县志',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/124119/',
+ 'id': 'df0c1722e0ac4062b123e0dae4cf0a1d',
+ 'name': '都城记胜',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106058/',
+ 'id': 'f26dcc3c696b4dcc8115cac114f4dd04',
+ 'name': '续茶经',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106797/',
+ 'id': '179a4089938d4f58a000fe7187768d86',
+ 'name': '泛湖偶记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/124118/',
+ 'id': 'ae258e2e5cdf4faba8534751d267bf8d',
+ 'name': '迪化县乡土志',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106057/',
+ 'id': '2ef65046e3eb4287b1355787e32159bd',
+ 'name': '龙井访茶记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107523/',
+ 'id': 'cccaf5da887e413d8b6da0b0d9cda149',
+ 'name': '辟邪集天学初征再征',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106796/',
+ 'id': '34599c05dad4457d9eec5c4fd8b2b2f3',
+ 'name': '梵门绮语录',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/124117/',
+ 'id': 'dadcfaad67b04cdfb5c63c6ca47856fc',
+ 'name': '连城县志康熙本',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106056/',
+ 'id': 'b3e5fe314f06493cb8a942b8733876a9',
+ 'name': '随息居饮食谱',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106055/',
+ 'id': '0591087743324c4ba7293d198b4cf4a3',
+ 'name': '醒园录',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107522/',
+ 'id': 'f4fd434a4c0e4d52b03e98bead849879',
+ 'name': '赞礼地藏菩萨忏愿仪',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108221/',
+ 'id': '71d961012fd54077a0a9a150f1506f5d',
+ 'name': '警世钟',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108224/',
+ 'id': '779482e08878448a86909deefca81bc4',
+ 'name': '新史学',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108215/',
+ 'id': 'cde05125822144838df3be93b0849531',
+ 'name': '玄牝之门赋注释',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104332/',
+ 'id': '0dbbb0a7c1a64874a51dd4f65c8c0a8b',
+ 'name': '金声巧联',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105551/',
+ 'id': '3a9de6cdf65044599246866e23e1e932',
+ 'name': '麻衣相法大全',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106795/',
+ 'id': 'b39f15a820f2466ca49e48a92e705987',
+ 'name': '顿子真小传',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106794/',
+ 'id': '8e94f9d9bc134e71b119ee00a4f982c6',
+ 'name': '对山馀墨',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106793/',
+ 'id': 'f1d8de214490431b9b43f4a81754abd3',
+ 'name': '杜秋传',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/124116/',
+ 'id': '0ec2bc3252fe44f290289b59c24955b5',
+ 'name': '辽阳州志',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/124115/',
+ 'id': '66b4f244625a447a9bcf3570a5c3c2d5',
+ 'name': '辽东志',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106054/',
+ 'id': '62710d5e05d84cc49f6925604b6f2314',
+ 'name': '醉古堂剑扫卷',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106053/',
+ 'id': '03fd62ac27b0405888155bc8ce0fa5c5',
+ 'name': '醉乡日月',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106052/',
+ 'id': '950fadb6165a4e92a5ab6ff59ef33c64',
+ 'name': '酒谱',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107521/',
+ 'id': 'a7de33c6e5a9434baf338009a2154c9c',
+ 'name': '觅灯因话',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107520/',
+ 'id': '3ff619d355184fa597304425c7b36494',
+ 'name': '见闻录',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107519/',
+ 'id': '944183a270d54c6891e52059ffef3000',
+ 'name': '菩萨戒羯磨文释',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108220/',
+ 'id': 'e05e62b1a82446828c13e1fa5945c8f6',
+ 'name': '革命军',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108219/',
+ 'id': 'd84fdc00845042ca9639aee21d6493ff',
+ 'name': '大同书',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108218/',
+ 'id': '1f180170612e438bbd1874c28f815460',
+ 'name': '续焚书',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108216/',
+ 'id': 'e5c82228ed1744e7a569bc900c40e090',
+ 'name': '焚书',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104057/',
+ 'id': 'b936087c25904d99a1813d23c379fc33',
+ 'name': '雪涛谐史',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108214/',
+ 'id': '734b8e81a0fe42008838209e9a7bfd7a',
+ 'name': '玄机直讲',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104331/',
+ 'id': 'a01f953dbda1486da4ddab5da46e19ac',
+ 'name': '时古对类',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104330/',
+ 'id': 'cd721a92117449baab00cf024c911a2d',
+ 'name': '方言巧对',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104329/',
+ 'id': '542771a63a4045bd84b42f39358511e8',
+ 'name': '对联话',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104328/',
+ 'id': 'e0ef02c11d0d4111b716f39b0df309b5',
+ 'name': '对类',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105550/',
+ 'id': '8a7921c088a34a23b6cf7aca1ee8ed3b',
+ 'name': '鬼谷子神奇相法全书',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105549/',
+ 'id': 'fcadfa09c6024781a9e082afb03ab7c2',
+ 'name': '面相浅义',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106792/',
+ 'id': '2e664c320d704d9c809e45f317ccbbba',
+ 'name': '妒律',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106791/',
+ 'id': 'da021946b0994cbb8cc1e4fe2decca4d',
+ 'name': '读红楼梦杂记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108225/',
+ 'id': 'bb877c6a70ab40e89aca2b7d0a71749e',
+ 'name': '针灸甲针',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/124114/',
+ 'id': 'e746c115fcfb4027833b648f784b5836',
+ 'name': '趵突泉志',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/124113/',
+ 'id': 'a42f3915e0614278a873ab707fbbae9a',
+ 'name': '赤雅',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106051/',
+ 'id': '224728d86d184c07b37329f114be5881',
+ 'name': '酒经',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107518/',
+ 'id': 'd94526cba263474787339dbc3e5ba0e6',
+ 'name': '菩萨戒本经笺要',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107517/',
+ 'id': '499d3cab75a247668b501bad8676b141',
+ 'name': '菩提道灯',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107516/',
+ 'id': '4aa3fa323a06467cb7af45e5192e32e3',
+ 'name': '菩提道次第略论',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103424/',
+ 'id': 'cb540cb92a9d43009631b79538342275',
+ 'name': '骈志',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103423/',
+ 'id': '559c3b9e992045d495f2bdc9f86553e9',
+ 'name': '韵府群玉',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103422/',
+ 'id': '86785a978ab545bf858e17b07be7433b',
+ 'name': '锦绣万花谷',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:25 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103421/',
+ 'id': '05317879f2d84a5daea14ec84fce76ae',
+ 'name': '读书纪数略',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105093/',
+ 'id': '0ca241789576438b90b00ec18fab6148',
+ 'name': '霞外杂俎',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104056/',
+ 'id': '4d2baf03557d4deda4e325713e9ca5c7',
+ 'name': '解愠编',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104055/',
+ 'id': '3f4170658834401ebd7eb3e5cc460de0',
+ 'name': '笑林',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108213/',
+ 'id': 'da19ba7bb57f4794bc1fd7550e842bd4',
+ 'name': '灵宝毕法',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108212/',
+ 'id': '4f19f53e4d2b4958946190b9c9ee5065',
+ 'name': '灵宝无量度人上品妙经',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108211/',
+ 'id': 'a95f0a4b10bf4fcc9ad58cc23c030c09',
+ 'name': '海琼传道集',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108210/',
+ 'id': '5561cdf566eb41b7b82b24f6c1ad6386',
+ 'name': '济一子道书十七种',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108209/',
+ 'id': 'f14e14f64fd34bb6a269a8dd5f02121c',
+ 'name': '洞玄子',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104327/',
+ 'id': '8c695ed1cd804277886a5f1c3ea26b99',
+ 'name': '声律发蒙',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104326/',
+ 'id': 'b473a5bfb87148b6b07d45d5fc902cb7',
+ 'name': '四书韵对',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104325/',
+ 'id': '99d76fdb89674c71a1fa780590352f8f',
+ 'name': '吴下谚联',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105548/',
+ 'id': '66516657581842b388f0fcf1c51c2eda',
+ 'name': '解梦门诊',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105547/',
+ 'id': '1bc1c082639840feb76bb773ab93dacc',
+ 'name': '解梦全书',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105546/',
+ 'id': 'd8311952f48a4c0d81f2b77aa9be880e',
+ 'name': '神相铁关刀',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106790/',
+ 'id': '7daaf6eae506402f8008ce2748d43ed9',
+ 'name': '洞箫记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106789/',
+ 'id': '36ba9d3aed0246029753246ae74da7f7',
+ 'name': '東征集',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106788/',
+ 'id': '9723f372dc29462498e2a079bd763dee',
+ 'name': '東瀛紀事',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106787/',
+ 'id': '6d02e7c5ee284e68aea278a4ed61cd89',
+ 'name': '東溟奏稿',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106786/',
+ 'id': 'a58cfe547ed04535b775ffe0753980f2',
+ 'name': '東南紀事',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106785/',
+ 'id': 'ac7e7dc093244f85b0763b041f95455a',
+ 'name': '東槎紀略',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106539/',
+ 'id': 'e63cbfdd2047440a8ac4d440c42b7196',
+ 'name': '医脉摘要',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106538/',
+ 'id': '6a351ea6959e4ed68851d37139fc104e',
+ 'name': '医经读',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/124112/',
+ 'id': 'e5fdc60c8a494be492dd44246a40f876',
+ 'name': '赤松山志',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106050/',
+ 'id': 'a3eccbb0e1824de9b1c6ec0b4f90f0ad',
+ 'name': '酒人觞政',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106049/',
+ 'id': 'd063fcdbdcd54e1f955230fd1ac3aafd',
+ 'name': '述煮茶泉品',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106048/',
+ 'id': '079154dec1944a8e8461b568ab65b435',
+ 'name': '觞政',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107515/',
+ 'id': 'b0d1bef26b7244ca94888c8ed4de8706',
+ 'name': '菩提道次第摄颂',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103420/',
+ 'id': '59bcf6b2bd2342b1995ed0789e4d0dfa',
+ 'name': '说略',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103419/',
+ 'id': '495f37180e1047148dd980c5719152ad',
+ 'name': '记纂渊海',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103418/',
+ 'id': '8c06368af55d4426afe4a68deda12751',
+ 'name': '职官分纪',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103417/',
+ 'id': '3a5e6da442f8404c989ccfd7e7dc73df',
+ 'name': '翰苑新书',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103416/',
+ 'id': '6c51962088b94809b12839908efaff2b',
+ 'name': '群书考索',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105092/',
+ 'id': 'a3f18de801884cd0b0093fa4fa195737',
+ 'name': '陆氏家制',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105091/',
+ 'id': '0b2370059e914244adb6f785ee5a30b0',
+ 'name': '闺范',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105090/',
+ 'id': 'b8c33505c1f34399a0e68f31d42deed1',
+ 'name': '郑敬中摘语',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104054/',
+ 'id': '433faee64fc14ef18ac3b9ef88f2a7ff',
+ 'name': '笑得好',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104053/',
+ 'id': '64490d66498748d4ae84b4cb699e1824',
+ 'name': '笑典',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104052/',
+ 'id': '2119471a26b64b2886a8384f22ab5ce5',
+ 'name': '广笑府',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104051/',
+ 'id': '304a84b29bf54af48d55897430c086af',
+ 'name': '古今笑史',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108208/',
+ 'id': 'd6c0606f30dd45b69b679e80f447b308',
+ 'name': '洗髓经',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108207/',
+ 'id': 'c50e522b501c43b7936f76435c3892a0',
+ 'name': '泥丸李祖师女宗双修宝筏',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104324/',
+ 'id': 'f4a8869535964b2cadf3759dcaabf3e5',
+ 'name': '半九亭集',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104323/',
+ 'id': '47d8308fb236450583b8e596845c8997',
+ 'name': '初学晬盘',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104322/',
+ 'id': '9bbfed33db084a26b4cec685646cd7ec',
+ 'name': '仄韵声律启蒙',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105545/',
+ 'id': '6364c03e62b44ba1b8fff46f08c783dc',
+ 'name': '神相全编',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105544/',
+ 'id': '8b3985bac0114f28a2250a23af5da05d',
+ 'name': '相法神仙断',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105543/',
+ 'id': '3e2ba40cc1c34831bf60c9b6bddf58ab',
+ 'name': '相学秘籍',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105542/',
+ 'id': '4cca0b45ee65478097c8128c43706315',
+ 'name': '痣相图解',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105541/',
+ 'id': '094bf6fd479a4a39a470bcaa1988e229',
+ 'name': '梦的解析',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106784/',
+ 'id': 'c95e5492c42441ac98b008ded3bf7b28',
+ 'name': '滇黔土司婚礼记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106783/',
+ 'id': '607055fc155549a59244021077713b8e',
+ 'name': '帝城花样',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106782/',
+ 'id': '7d431309567e4e1eb5a5d98b87492b4c',
+ 'name': '荻楼杂抄',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106781/',
+ 'id': 'c7eea963a0194afea8e0fdd500f094b2',
+ 'name': '悼亡词',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106537/',
+ 'id': '5765e1f6f57846d09595f2cad5d19c34',
+ 'name': '医经小学',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106536/',
+ 'id': '1632d1e174b54a1f8a3968e681a05015',
+ 'name': '医病简要',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106535/',
+ 'id': 'bd7680dac2cc41d5bb8209505bf9a849',
+ 'name': '医略',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106534/',
+ 'id': 'aa257dc7f69a4fb2b603360f95d34ca6',
+ 'name': '医理真传',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/124025/',
+ 'id': '4c530e3e1b0d4352a64893aff387abc1',
+ 'name': '诸蕃志',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/124024/',
+ 'id': '1892869f6d0e47f88e5518ec19b2d243',
+ 'name': '诸罗县志',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/124023/',
+ 'id': '7548c77daad340d0aff3d719da8011b0',
+ 'name': '西藏风俗记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/124022/',
+ 'id': '2ac8ad80b0dd4ac9bf97e09e372f3530',
+ 'name': '西藏方舆',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/124021/',
+ 'id': '1250564d820f40dd88338c156c6f1611',
+ 'name': '西湖游览志余',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106047/',
+ 'id': '37bcc6c1bb1548b18f18022b3eb69b43',
+ 'name': '虎丘茶经注补',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106046/',
+ 'id': '8824fe019d4b4d638b8246962707b475',
+ 'name': '荈茗录',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106045/',
+ 'id': '36d6591af4074a6f9171db55aac7408d',
+ 'name': '茶酒论',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107514/',
+ 'id': '926ee882a8a9407da5b4a5e6cd094c76',
+ 'name': '菩提道次第心论',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107513/',
+ 'id': '5c2e72d34deb4759b45254edac35175d',
+ 'name': '菩提道次第广论',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107512/',
+ 'id': '243f5a64678a4dbab7a725eab77e28ae',
+ 'name': '菩提达摩南宗定是非论',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103415/',
+ 'id': 'c6e2565c4b93466b9fe895a471a19b5e',
+ 'name': '群书会元截江网',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103414/',
+ 'id': '0f84a0a82a6e4947bf9cd3cedf79f340',
+ 'name': '编珠',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103413/',
+ 'id': 'f096ea7e287842f592ebf0c96248e9eb',
+ 'name': '经济类编',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105089/',
+ 'id': '994e0f3d29604581ba016683b124afcd',
+ 'name': '诫子拾遗',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105088/',
+ 'id': 'c8a8d019bb0a49de8d45108632c2317b',
+ 'name': '西畴老人常言',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105087/',
+ 'id': 'fe78d058639247cc9f97246598ba3f98',
+ 'name': '袖中锦',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104050/',
+ 'id': 'f4694d13e082448198f3d7989370c775',
+ 'name': '笑赞',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104049/',
+ 'id': '31bd34880b9a4d718ff0910e1eae13ce',
+ 'name': '笑林',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108206/',
+ 'id': '4aea2f49671449af9e334767fcd2b5a7',
+ 'name': '泄天机',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108205/',
+ 'id': '8542aeb87a2f4d6c937fd4e41c56ab01',
+ 'name': '水石闲谈',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108204/',
+ 'id': 'cdfd61f9c0ed4178ae8da2189e232580',
+ 'name': '梅华问答',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104321/',
+ 'id': 'b0094b190a334d0183acb099e26dc938',
+ 'name': '笠翁对韵',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104320/',
+ 'id': 'aea5155e9b1c48cb98274745c4397b8c',
+ 'name': '初学晬盘',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105540/',
+ 'id': '720754122b4f4187a4f905a90893c82a',
+ 'name': '日本淫相学',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105539/',
+ 'id': 'e92d5781f5f94f3dbe6f787a1c20f60e',
+ 'name': '手面相学讲义',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105538/',
+ 'id': 'df822b239ccd4683af22bf7f1f7d323e',
+ 'name': '手相图解',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106780/',
+ 'id': '90f47e9d5bdf414ea2c8e4f6364b1f6d',
+ 'name': '代少年谢狎妓书',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106779/',
+ 'id': '8a91d43a63e64394b8da43aa6e505e53',
+ 'name': '代某校书谢某狎客馈送局帐启',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106778/',
+ 'id': '23dcd421061341f9b6e25a5dd94eca78',
+ 'name': '黛史',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106777/',
+ 'id': '18ab066318524e0f93d8208576bb0919',
+ 'name': '戴施兩案紀略',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106533/',
+ 'id': '8c9e328376b145f6b4e6cf4ae441d813',
+ 'name': '医源',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106532/',
+ 'id': 'ca291c99937c4286b5e56df6d6277dc7',
+ 'name': '医津一筏',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/124020/',
+ 'id': 'f9c7e18235da4733884e6baf5a5949e1',
+ 'name': '西湖水利考',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/124019/',
+ 'id': 'f8813dc59446441d9c92f7ada13e3faa',
+ 'name': '西南夷风土记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/124018/',
+ 'id': '0d71dd50396c4dd380d1f4d4817c218c',
+ 'name': '补陀洛迦山传',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106044/',
+ 'id': '6f17f5de1aa149d3bd0384f14a36a739',
+ 'name': '茶赋并书',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106043/',
+ 'id': 'b7b000f278674ea99a6e8193220c494c',
+ 'name': '茶谱',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106042/',
+ 'id': 'c3c39069dfaf496286fec8439a0ebb03',
+ 'name': '茶谱',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106041/',
+ 'id': 'a6fc43aa1a8c4f0bb6e4d81e60472d35',
+ 'name': '茶谱',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107511/',
+ 'id': '7487c76677004561b458cd5510461960',
+ 'name': '荷泽神会禅师语录',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107510/',
+ 'id': '27cd30843a154834971180f1a083c9a5',
+ 'name': '般若波罗蜜多心经释要',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107509/',
+ 'id': 'd1c3ca032a2d4ed2b65c42082ff5aebc',
+ 'name': '续高僧传',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103412/',
+ 'id': 'b82b636def794179888c295082050b36',
+ 'name': '稗编',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103411/',
+ 'id': 'e0d751a3f6914a6e863e2dbf5ab56028',
+ 'name': '白孔六帖',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105086/',
+ 'id': '168d3f7fbab34fedad612fd51793c6df',
+ 'name': '荣枯鉴',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105085/',
+ 'id': '741088732fea4056bbbbc4e51db257b2',
+ 'name': '示儿长语',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105084/',
+ 'id': '5296803906194bf6a93f8151bec219da',
+ 'name': '琼琚佩语',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105083/',
+ 'id': 'caf66d2f3dba4d42ad2f969bd652f4fc',
+ 'name': '玉笑零音',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105082/',
+ 'id': 'b0268ec87687487e8793a9b50c70e09d',
+ 'name': '温氏母训',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104048/',
+ 'id': '0f9b529bbfd74e7d8fc527c7221f0ae8',
+ 'name': '十二笑',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104047/',
+ 'id': 'dce5b890df20490481d22eb21d42fdf0',
+ 'name': '笑赞',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104046/',
+ 'id': 'b63351fd98324c328afd16314f049649',
+ 'name': '笑林广记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104045/',
+ 'id': '175d49b667f841358291cf802c48c99f',
+ 'name': '邃汉斋谜话',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104044/',
+ 'id': 'a9d6225c04db4e3b86c5a0ee0f04bfac',
+ 'name': '谈虎偶录',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108203/',
+ 'id': '94539a78a4684a53860691c23bac909c',
+ 'name': '栖云真人王志谨盘山语录',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108202/',
+ 'id': '0877d1cc6be048c296f6698c696dc8b0',
+ 'name': '服气精义论',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104319/',
+ 'id': 'ae5f63e7177c410fad2a3e108f23d805',
+ 'name': '楹联丛话全编',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104318/',
+ 'id': 'bd15e40190f34255a46d40522f9595ef',
+ 'name': '笠翁对韵',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104317/',
+ 'id': '03d85af3b8ee42ac8306a99453777911',
+ 'name': '声律启蒙',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105537/',
+ 'id': '2a1b37b8c68f4cc0b5044eb4517503c1',
+ 'name': '峰生水起面相篇',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105536/',
+ 'id': '1d829eef0ed042788fc55af2b6a479ce',
+ 'name': '图解面相学',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105535/',
+ 'id': '9e01b086004848799f05923c8b74a296',
+ 'name': '图解手相术',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105534/',
+ 'id': 'f665aa10db9243f18f7fe65827ea239e',
+ 'name': '凯帝阿的手相讲座',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105533/',
+ 'id': 'a53a6d67e183461892c6ffd4913488e1',
+ 'name': '公笃相法',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106776/',
+ 'id': '9a14ffdd54b3450c8569d0f4039b67bc',
+ 'name': '大观园图说',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106775/',
+ 'id': '521c7d791e1e4e9aaa94e0e66848e7a8',
+ 'name': '春人赋',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106774/',
+ 'id': '7e808fed2b93482fbb86de6634f0beeb',
+ 'name': '春娘传',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106773/',
+ 'id': '121287605dde4f7eb4bbd91859b8c623',
+ 'name': '春闺杂咏（用上下平韵）',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106772/',
+ 'id': 'd69d607caf30431b806baa750eb26871',
+ 'name': '醋说',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106771/',
+ 'id': '7d818fe8399a4ff49a87e7ad3768f923',
+ 'name': '從征實錄',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106770/',
+ 'id': '2e201d8d4e9947f8b0788e48c1863a34',
+ 'name': '重修臺灣縣志',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106531/',
+ 'id': '27fdfc24c05741d3aecc76d18c986d1f',
+ 'name': '医案精华',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106530/',
+ 'id': '957db9b552a643a3ba80df1aa67badff',
+ 'name': '医林琐语',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/123975/',
+ 'id': '23950f0c35f7423d9bdf4df5d6db54ac',
+ 'name': '蜀中广记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/123974/',
+ 'id': '547a38b7036c4c29a152e3c00b0de177',
+ 'name': '蓬山志',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/123973/',
+ 'id': '9f16b0d0f32d4409af6b573e358d17c6',
+ 'name': '蒲犁厅乡土志',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/123972/',
+ 'id': 'ef10ab065123480dbd4de0893ec8a492',
+ 'name': '莲峰志',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106040/',
+ 'id': '871b4043713743b98ba014896b705c3b',
+ 'name': '茶说',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107508/',
+ 'id': '0d531b9a887f480b9aab165d76778948',
+ 'name': '精校炖煌本坛经',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107507/',
+ 'id': '802bbac198e64c2ead554c4a05eb6862',
+ 'name': '禅苑蒙求',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107506/',
+ 'id': 'e44419a91b1b4c7c9026f515283aef72',
+ 'name': '禅林僧宝传',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107505/',
+ 'id': 'ad104ba7480b434d9cac06b5f4bf6481',
+ 'name': '神会禅话录',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107504/',
+ 'id': '3ab1e312eff34fab87d0a2aac20ada5c',
+ 'name': '相宗络索',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107503/',
+ 'id': '71e2d12b79454f3c8602bd727d8b4879',
+ 'name': '相宗八要直解',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103410/',
+ 'id': 'c5c74768f4ce417baaf61fb1153f1dc2',
+ 'name': '玉海',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103409/',
+ 'id': '21a58edee1154247b458e66222aac58c',
+ 'name': '海录碎事',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103408/',
+ 'id': '2a668d9191734f73aa7bbd260523e52a',
+ 'name': '氏族大全',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103407/',
+ 'id': 'c095f2316d094af698ee61f2e0306610',
+ 'name': '格致镜原',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105081/',
+ 'id': '10d7e1da30df422c909712fe952f7014',
+ 'name': '杂纂续',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104043/',
+ 'id': '4e6ef1ce920e4ddfbac971f1ba8f008c',
+ 'name': '评注灯虎辩类',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104042/',
+ 'id': '29644403f8854d47b6aa900e9bde9aa4',
+ 'name': '纸醉庐春灯百话',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108201/',
+ 'id': '59ce30a341b0484fab7a5f012317885c',
+ 'name': '方壶外史',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108200/',
+ 'id': 'a57d245381a24e488b2b60bb73d7a150',
+ 'name': '敲爻歌',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108199/',
+ 'id': '6638dd323c714409b95d8474ed598821',
+ 'name': '慧命经',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104316/',
+ 'id': '7eb9cf30d2b74be9879497377ce76f64',
+ 'name': '文赋',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105532/',
+ 'id': '8d0193c3e6dd4943a73d59b320454d41',
+ 'name': '陆斌兆紫微斗数评注',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105531/',
+ 'id': '6fd47561c8204104b82a8b45fca4a67f',
+ 'name': '许耀焜紫微斗数教学',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105530/',
+ 'id': '4f4c06baac414f7286a746b46a66553f',
+ 'name': '紫白诀',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106769/',
+ 'id': '9cf751b43a2043669047f893a6338fe1',
+ 'name': '重修臺灣府志',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106529/',
+ 'id': '2b735c98fc2d4ba19740fd45876571c2',
+ 'name': '医林琐语',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106039/',
+ 'id': 'a92fe7c9228b48838e6435557b0c6936',
+ 'name': '茶说',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106038/',
+ 'id': '15755d9865f7439c868fdbdfd754e8a5',
+ 'name': '茶解',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106037/',
+ 'id': '5b3a935d3d2d425087969ff678210e76',
+ 'name': '茶董',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107502/',
+ 'id': '47b4cfc56cd443fa8a1f6e5377166267',
+ 'name': '灵峰蕅益大师宗论',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103406/',
+ 'id': '88149c33286f494691124b52aa9a51ee',
+ 'name': '御定骈字类编',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103405/',
+ 'id': '7911759914314d2abdfa6e02c06a7f5f',
+ 'name': '御定韵府拾遗',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103404/',
+ 'id': 'b1922f89c4c04e3fb3fb99ba6cf41628',
+ 'name': '御定渊鉴类函',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105080/',
+ 'id': '497600fc69ce4be79d4c0d447b54b07e',
+ 'name': '杂纂新续',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105079/',
+ 'id': '86c40c08283840b9b85e9b41a8685adc',
+ 'name': '杂纂二续',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105078/',
+ 'id': '9ba2994670114747b77d190d7ea3d673',
+ 'name': '杂纂之纂得确',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105077/',
+ 'id': '14dbbd43fca14d18ad9ed78ee2d39b20',
+ 'name': '杂纂之广杂纂',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104041/',
+ 'id': '801eb02c338a45e89647453e5d7449ad',
+ 'name': '犬窝谜话',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108198/',
+ 'id': '6f999135c753456fa49bfba5d62cf122',
+ 'name': '悟道录',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108197/',
+ 'id': '80134c2074824d2a842848b388bfe0cc',
+ 'name': '悟真篇阐幽',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108196/',
+ 'id': 'b78233514950437d9637a156a1b202e4',
+ 'name': '悟真篇',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104315/',
+ 'id': 'd1ba713bdf16406aa60e0d906ed0fbcb',
+ 'name': '哀江南赋',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105529/',
+ 'id': '52ed4a3a5a50433c9fbf4a99cbcc81c4',
+ 'name': '紫微格局研究',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105528/',
+ 'id': '361e2a82cc184f0d9c0d3909f0f92b68',
+ 'name': '紫微斗数资料汇编',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105527/',
+ 'id': 'ba4b861d2ae941a1a9f35b126cca7471',
+ 'name': '紫微斗数资料',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106768/',
+ 'id': 'afede60f221c4997af695a3ec4ccf12d',
+ 'name': '重修福建臺灣府志',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106767/',
+ 'id': '91979c878a144d5f8790c954c5c21a50',
+ 'name': '重修臺灣府志',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106528/',
+ 'id': '28859ced5697453b85c6aa1fc3ab4ad2',
+ 'name': '医方证治汇编歌诀',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106527/',
+ 'id': '4ffdabe2214d468e866b879d34d976bf',
+ 'name': '医方论',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106526/',
+ 'id': 'a69b23148cac495a9455233b33907fc7',
+ 'name': '医方歌括',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106036/',
+ 'id': '391011db67d44f0d902b0893bd76014e',
+ 'name': '茶考',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106035/',
+ 'id': '877d9ad8bb4342fcbde4da5e1f7a124f',
+ 'name': '茶笺',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107501/',
+ 'id': '0e733068b30a447a8ebf310c8bbd10be',
+ 'name': '法藏碎金录',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107500/',
+ 'id': '42b80d5db25846e38314a8c121a5c9de',
+ 'name': '法海观澜',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107499/',
+ 'id': '3935f22ae01f42229b850e1006f635da',
+ 'name': '永嘉证道歌',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103403/',
+ 'id': 'b7a09531430642ec9406730704cad3e7',
+ 'name': '御定子史精华',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103402/',
+ 'id': 'd69e427886cf447899a30e13b1c0b469',
+ 'name': '御定分类字锦',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103401/',
+ 'id': '4165af0c6a5a47ea9650ffebd94a3e14',
+ 'name': '御定佩文韵府',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103400/',
+ 'id': '20cd0ece257740a4865beea5be9f77aa',
+ 'name': '广博物志',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105076/',
+ 'id': '26e5e1ad038f49b0a183a60c9bd43e8e',
+ 'name': '杂纂之义山杂纂',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105075/',
+ 'id': '57dd1c21ed4b44778042fe48ab7d002b',
+ 'name': '杂纂三续',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104040/',
+ 'id': '15ee0b2ecae24c69bcf84d6ef7e5c04b',
+ 'name': '灵箫阁谜话初集',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104039/',
+ 'id': '7634c76972f8462faba2e99abbeef36a',
+ 'name': '灯猜丛话',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104038/',
+ 'id': 'e37f2342eba54a8e9d802b7609abb236',
+ 'name': '橐园春灯话',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104037/',
+ 'id': '6ae2de23b5104c918615cb8e046d6d41',
+ 'name': '棣萼室谈虎',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108195/',
+ 'id': '876cf96379e64508a1d3e0a8f31b4f9a',
+ 'name': '悟真直指',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108194/',
+ 'id': '47f9ce47dc374a929b495bb034efc26c',
+ 'name': '悟玄篇',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104314/',
+ 'id': '9d0e195ad1534b27be9e5665f789a16b',
+ 'name': '二十四赋品',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104313/',
+ 'id': 'd4aa8b0e8a2141f19aa9c4a2e560d241',
+ 'name': '二京赋',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105526/',
+ 'id': '3ca5356b5f3746b9919551dff4f69b9c',
+ 'name': '紫微斗数论命要诀',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105525/',
+ 'id': '40e382baa9ba4d4d8b554b804cad8a4f',
+ 'name': '紫微斗数讲义',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105524/',
+ 'id': '277b187485b647059345ca7fc012f216',
+ 'name': '紫微斗数解说',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106766/',
+ 'id': '2d1c2d3b3a8a403cbae3cc7d2d42556c',
+ 'name': '赤嵌集',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:26 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106765/',
+ 'id': 'f9101cfa6fb849d5a7de789962ef9681',
+ 'name': '賜姓始末',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106764/',
+ 'id': '5d3a62e1218140b3b59c5e3968dbd7d4',
+ 'name': '陈州牡丹记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106525/',
+ 'id': 'd5ca24265ac2483f93405bf693101f0e',
+ 'name': '医家秘奥之脉法解',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106524/',
+ 'id': '4386f155a5f5480c96f69688b243164e',
+ 'name': '医学集成',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106523/',
+ 'id': '4fc0b5be923541a98525766d4389b9d9',
+ 'name': '医学发明',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106522/',
+ 'id': 'b2547383ec09462a8da52ff0dfc9f651',
+ 'name': '医学传心录',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106034/',
+ 'id': '843ed47dfcd448c5afcfd32056df466b',
+ 'name': '茶神传',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107498/',
+ 'id': '56cf228119f14c79951daa774eeb88fd',
+ 'name': '毗尼后集问辩',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107497/',
+ 'id': 'f4a27098b532477eb3b16814f76ce806',
+ 'name': '楞伽阿跋多罗宝经玄义',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107496/',
+ 'id': '6fbb77a641754e5d96a9dd7f16504dba',
+ 'name': '楞伽阿跋多罗宝经义疏',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107495/',
+ 'id': 'da2bf3829d1f41e795c6b8e1f3b832d1',
+ 'name': '梵门绮语录三种',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103399/',
+ 'id': 'e2af4264acc7446e81fd4047bd79560b',
+ 'name': '帝王经世图谱',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103398/',
+ 'id': 'be0a79fd62e64186a4d4f3d39b84e197',
+ 'name': '山堂肆考',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103397/',
+ 'id': 'fcf7d918ea0a4d628e1e3cd0311b731c',
+ 'name': '小学绀珠',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105074/',
+ 'id': '203ccf5c4408455aa63c05cc1c53f231',
+ 'name': '朱子家训',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105073/',
+ 'id': '3d769fc319fc497e8a60663d8c233068',
+ 'name': '明心宝鉴',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105072/',
+ 'id': '7f4b717db5d84b63853b771d6759746e',
+ 'name': '教女遗规',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104036/',
+ 'id': 'cd362aabda214e0a9fb03b353d8fa842',
+ 'name': '文虎',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104035/',
+ 'id': '4ec26ca751814a23b0c56f8af2dfdb1f',
+ 'name': '慧观室谜',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104034/',
+ 'id': '179c6f3902b3450597581f4b22e0f489',
+ 'name': '黄氏宝卷',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108193/',
+ 'id': '09fc1f8a7ef74d05bdc40dfb3967ce48',
+ 'name': '性命要旨',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108192/',
+ 'id': '5d4ee031876b431a9ecd698e79e4e20a',
+ 'name': '性命圭旨',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108191/',
+ 'id': '30cff37bdc4b47df95898e0f2e0f66d0',
+ 'name': '御制周颠仙人传',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108190/',
+ 'id': '998c5d9cb06d43d1bf634adcd6b9da9d',
+ 'name': '归藏',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104312/',
+ 'id': 'eb8b2768e4814a7f8d0836cea3fb975d',
+ 'name': '钦定补绘萧云从离骚全图',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104311/',
+ 'id': '9735ff9000c34d1bbe94c7e7b03a7543',
+ 'name': '楚辞集注楚辞辩证楚辞后语',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105523/',
+ 'id': '3e32203d536444b182bfa4d6174b3f5e',
+ 'name': '紫微斗数精成',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105522/',
+ 'id': '78ba52f493ef4230a57b78cc5e7874cd',
+ 'name': '紫微斗数应用讲义',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106521/',
+ 'id': 'c9b2511f52d446abbf2646f3ff42aca9',
+ 'name': '医学举要',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106033/',
+ 'id': '122477d17da74602b1d7837f191479ef',
+ 'name': '茶寮记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106032/',
+ 'id': '8d47397abb4140af95fed5b1a2264317',
+ 'name': '茶具图赞',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107494/',
+ 'id': '03bbdd76f3e041118d57b20d1b63c5a3',
+ 'name': '梵网经忏悔行法',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107493/',
+ 'id': '4721ab79b2e648f1bb2666114393dd58',
+ 'name': '杨岐方会和尚语录后录',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107492/',
+ 'id': '279b0496a9e34541b0e3735eab54b84d',
+ 'name': '教观纲宗释义',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107491/',
+ 'id': '2e4699e04f984fd78b6397dffe17241c',
+ 'name': '教外别传',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103396/',
+ 'id': '08bb70df1423413bb543b42e71552396',
+ 'name': '小名录',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105071/',
+ 'id': '051152bd4ad448a7a281ba5adf52f5a1',
+ 'name': '戒子通录',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105070/',
+ 'id': '80762f935ba043bcadf59e11002fb4a2',
+ 'name': '戒子益恩书',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105069/',
+ 'id': '950abf383753486e84231f4775853141',
+ 'name': '戒子孙',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104033/',
+ 'id': 'e16497012f574f5787e4f1b9acb635fc',
+ 'name': '鱼篮宝卷',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104032/',
+ 'id': '3ae14aca43c146e2a11b5a893f28a27d',
+ 'name': '靖江宝卷',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104031/',
+ 'id': '48244c77f5c84580904f3179c520abda',
+ 'name': '雷峰宝卷',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104030/',
+ 'id': '7ecb5b86dd504125aa3edd94f2b81b50',
+ 'name': '销释大乘正宗神默然宝卷',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108189/',
+ 'id': 'ebb80efce8db4a77b5d0879ebed10001',
+ 'name': '张三丰先生全集',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104310/',
+ 'id': '63faf17cd0bf4f6caae72b6ca52e1d2b',
+ 'name': '楚辞章句',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104309/',
+ 'id': '00245d1a5cdb4653b45ec74fcc016191',
+ 'name': '山带阁注楚辞楚辞余论楚辞说韵',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104308/',
+ 'id': 'b9e706b30ebb4ba5a32604cb33ca269b',
+ 'name': '离骚草木疏',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105521/',
+ 'id': '85b66e84b72b4f7984229b7df8371dbc',
+ 'name': '紫微斗数学习的心路历程',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105520/',
+ 'id': '49cf1283ad364eaa9258691f20f94056',
+ 'name': '紫微快速推断法',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105519/',
+ 'id': 'a3805b1e8fa24a9ea9a8c73adfc42178',
+ 'name': '紫微中至',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105518/',
+ 'id': '67ffbceee45343abad59059253cfad1f',
+ 'name': '紫云派基础讲义',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105517/',
+ 'id': '8b48a6a7ef404c72a3069bad51864ff4',
+ 'name': '王亭之谈斗数',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106520/',
+ 'id': '637a31ab75004aa4ba7bb64a3fdeffac',
+ 'name': '医垒元戎',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106519/',
+ 'id': '95d6fb46ba784dfb960b32c0c337f0f3',
+ 'name': '医医十病',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106518/',
+ 'id': '1883eafd44b94ee099e41f76b3bd88d6',
+ 'name': '医中一得',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106517/',
+ 'id': '909d31c6989849f787c6e6f8465d0803',
+ 'name': '劝读十则',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106031/',
+ 'id': '0c2ef6163f56407c8a7640a28ba27392',
+ 'name': '茗谭',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107490/',
+ 'id': '7c568cee84634ce1a739ca9cf323c4e7',
+ 'name': '敕修百丈清规',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103395/',
+ 'id': '405c06b1ddef4ef5bb70828f170a5022',
+ 'name': '实宾录',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103394/',
+ 'id': 'db902ece319f4abbbf582a521880d196',
+ 'name': '姓氏急就篇',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103393/',
+ 'id': 'decfc4d4bff8479eaf64c938eeffce9e',
+ 'name': '天中记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105068/',
+ 'id': '3e89e1eef83b41ed9318e119ee2c1cc9',
+ 'name': '度心术',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105067/',
+ 'id': 'b59e7efd8e414daf95fc2958ce6c2476',
+ 'name': '幽梦续影',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104029/',
+ 'id': 'aa7c5309a743493582cb81dea13f59b8',
+ 'name': '释疑宝卷',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104028/',
+ 'id': '2f77ff5442ca4468985b6fd7c9cd125e',
+ 'name': '玉历宝钞',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104027/',
+ 'id': '60667e47122f43aa87759ca0d86ef74d',
+ 'name': '民间宝卷花名宝卷',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104026/',
+ 'id': 'af9d0e52735d49818dc8736355b56af3',
+ 'name': '梁皇宝卷',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108188/',
+ 'id': '7922ed92c2d34d83972faa904dd1a89b',
+ 'name': '庄子通',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104307/',
+ 'id': 'a75260675a574cc7af1f7f3f462c2405',
+ 'name': '楚辞集注辩证后语',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104306/',
+ 'id': '85a593105fdd4ef397d1e6da1b350d70',
+ 'name': '楚辞补注',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105516/',
+ 'id': 'ae91309a5c3e44b5a25b1a279fc35b62',
+ 'name': '易算紫微斗数讲义',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105515/',
+ 'id': 'bed3235642af4595b02b0a8b449baf3f',
+ 'name': '四化飞宫',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105514/',
+ 'id': '53b58213c87040cf914a1f77e59231ac',
+ 'name': '九千飞星',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106516/',
+ 'id': 'd91c451446334a97b5e63f82ce94226e',
+ 'name': '刘河间伤寒医鉴',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106030/',
+ 'id': 'f22935f7b8c747f8a3de32e9539586c1',
+ 'name': '茗笈',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107489/',
+ 'id': '4a326409899f4d47beae50e19bdc0075',
+ 'name': '摩尼教残经',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103392/',
+ 'id': '4e8486b35c344782b34d0aeda460a6f0',
+ 'name': '图书编',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103391/',
+ 'id': '5aa5425e258e480084f645ec85c292e8',
+ 'name': '喻林',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105066/',
+ 'id': 'c178860cf7e740adb007854fa1a5de04',
+ 'name': '居家必知',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105065/',
+ 'id': '81bddc66e8224f80a015438fb99a9949',
+ 'name': '居家必用事类全集',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105064/',
+ 'id': '797340d717a24d35af1bd9595e521773',
+ 'name': '家诫要言',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104025/',
+ 'id': 'bd2685728ac94a5d969d1571564714d1',
+ 'name': '杏花宝卷',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104024/',
+ 'id': '45d34cae1b5144cd932bb63ebcbb3cdb',
+ 'name': '度阴宝卷',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104023/',
+ 'id': '0c32eae6e567468aa4866a9abc43bc83',
+ 'name': '宝诰大全',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104022/',
+ 'id': 'be1f29c6798f4b4296364b5a3203bf6e',
+ 'name': '何仙姑宝卷',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108187/',
+ 'id': '8226275f6f2543ceb86fa8031155f722',
+ 'name': '庄子注',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108186/',
+ 'id': '5309361b2b8d45e5b587f42393fbe893',
+ 'name': '庄子内篇注',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108185/',
+ 'id': '37909b3c43174b7ab9e776b89ab29002',
+ 'name': '幻真先生服内元气诀',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108184/',
+ 'id': '753aa7834b644f4c90f71c842a88a90f',
+ 'name': '女子丹经汇编',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108183/',
+ 'id': '0e3ec247cf9a4ddab9b30e09367eb1ee',
+ 'name': '女丹合编选注',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108182/',
+ 'id': '31121e6685d54b38902195c923f5dd24',
+ 'name': '女丹十则',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104305/',
+ 'id': 'a417cf7e6b8a4c7295ee947fe13b8ae1',
+ 'name': '楚辞芳草谱',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104304/',
+ 'id': '548cc0d41f5a4fa49da068de251a97b2',
+ 'name': '楚辞章句疏证',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105513/',
+ 'id': '609e707e32b64b30adc4d85254d7b335',
+ 'name': '中州派紫微斗数深造讲义',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105512/',
+ 'id': '181880a48c0944f383276399291e1ed5',
+ 'name': '中州派六十星系',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106515/',
+ 'id': '484add415a294717a2673b5cbe3d470c',
+ 'name': '凌门传授铜人指穴',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106514/',
+ 'id': '59848a63059a4abea521ea87f09fcf0b',
+ 'name': '内经药瀹',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106513/',
+ 'id': '7569655700f949e4906b04de029fe4e1',
+ 'name': '内外伤辨惑论',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106512/',
+ 'id': '30b414ea42704e70901f85000913cb79',
+ 'name': '养生随笔',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106029/',
+ 'id': '4001db3e4639444e8d05ce1716cd4564',
+ 'name': '茗史',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106028/',
+ 'id': 'ce23c2d4d32d414ebd38c7fb29408b73',
+ 'name': '膳夫录',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107488/',
+ 'id': '8a0baa0752634050b246e3fc9a9751d0',
+ 'name': '摩尼光佛教法仪略',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107487/',
+ 'id': '7c87991f391c4037aa3c912e1ad3dbe9',
+ 'name': '成唯识论观心法要',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103390/',
+ 'id': 'e3a7f6a47b264e6590b823301db44b03',
+ 'name': '名贤氏族言行类稿',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103389/',
+ 'id': '5dc87446f0f24223a648d2f5a6667dcc',
+ 'name': '名疑',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105063/',
+ 'id': '6a557125667045a6958f19fcc59c29e3',
+ 'name': '家范',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105062/',
+ 'id': '78d26e64d9204840a3e3b151ae8a28df',
+ 'name': '家政须知',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105061/',
+ 'id': 'da79e3de1c9a4fb68c538972f4a3fe9c',
+ 'name': '家庭宝筏',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105060/',
+ 'id': '0de079d5595b46679e6b1726486a15f9',
+ 'name': '女诫',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105059/',
+ 'id': '9b42b0f4301944bdaf68c86b25417f76',
+ 'name': '女论语',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104021/',
+ 'id': '08d42082890d44d88dee9f599f4422b3',
+ 'name': '五部六册',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108181/',
+ 'id': 'a7002d2a65c54bd980008a2040a72c76',
+ 'name': '太虚集录',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104303/',
+ 'id': '8d7a71e72da745e5a20196ab2c26baca',
+ 'name': '楚辞芳草谱',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104302/',
+ 'id': '8fbdc6b542894c9d865c92dd1db60947',
+ 'name': '楚辞补註',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104301/',
+ 'id': '6053257baff94443a26d43ca9bb39e11',
+ 'name': '楚辭',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/123971/',
+ 'id': '3a745880d7fb4903b3d678dfe97a12c0',
+ 'name': '莎车府乡土志',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106511/',
+ 'id': '9d9584bee23e47cc9c36ac55b7478c26',
+ 'name': '养生肤语',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106510/',
+ 'id': 'c1918e369ae4437498cbca242e5942e4',
+ 'name': '养生三要',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106027/',
+ 'id': '0b70cc5755b9428b82d018c329504f69',
+ 'name': '续易牙遗意',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106026/',
+ 'id': '800a3398c2244d0cba1b181d1713d73d',
+ 'name': '续北山酒经',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106025/',
+ 'id': 'cb983e43d2454c789f99a0c081db01e5',
+ 'name': '煎茶水记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106024/',
+ 'id': 'ced69a5754a542b09e69ba6d128b6f81',
+ 'name': '浦江吴氏中馈录',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106023/',
+ 'id': '79044cd1641b454eb80420cc3b82b8f8',
+ 'name': '洞山岕茶系',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107486/',
+ 'id': '5aa4b454f56d400c8433e9d43e204a9d',
+ 'name': '憨山老人梦游集',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107485/',
+ 'id': '78e2805238d84eba9659b01a7d2ca210',
+ 'name': '御制金刚般若波罗蜜经集注',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107484/',
+ 'id': '8875a9e5b8104e7485d22da711b3176a',
+ 'name': '御制神僧传',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103388/',
+ 'id': '738c6ba6d8c84bfca3df2d21161ccd32',
+ 'name': '同姓名录',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105058/',
+ 'id': 'ddf8eb2d3e074358b72ad663f801ea92',
+ 'name': '处世悬镜',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108180/',
+ 'id': '2b52414b73ec4b09a70fc3c9164c0796',
+ 'name': '太清中黄真经',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108179/',
+ 'id': '62248ec570d44775a3ab7e68bfd1dc96',
+ 'name': '太乙金华宗旨',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108178/',
+ 'id': '718baec15bed4c9fb3c3ddca6f767cbf',
+ 'name': '天隐子',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108177/',
+ 'id': '7842df261a0d404da8223a3127943242',
+ 'name': '天口篇',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108176/',
+ 'id': '1399b7571394410fb7e875e2662715a2',
+ 'name': '天仙道程宝则',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104300/',
+ 'id': 'ceddb0f4cb724c0d928bb1a720c9e4d6',
+ 'name': '文心雕龙译注',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104299/',
+ 'id': '7d35ff0e642f4dadb831e9ad5d405f82',
+ 'name': '楚辞',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104298/',
+ 'id': 'd2933fe5076b43f981565ae007cfd8ff',
+ 'name': '楚辞补註',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104297/',
+ 'id': '8790f65b7503400e86e2ab711b72908b',
+ 'name': '六十种曲金莲记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104296/',
+ 'id': '5f926f3e75994bb2a76aca172ab92928',
+ 'name': '六十种曲邯郸记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104295/',
+ 'id': '00bd7a5eb9db4fce9f5aaa56f8e71dfd',
+ 'name': '六十种曲还魂记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/123970/',
+ 'id': '36b686ed89b0466bac558ab75b12517a',
+ 'name': '英吉沙尔厅乡土志',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/123951/',
+ 'id': 'd954a17512cc46e8a32ae81bae5ae0b2',
+ 'name': '苗栗县志',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106509/',
+ 'id': '652d6ee6b8e041cfa852be01f291006b',
+ 'name': '养性延命录',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106508/',
+ 'id': '4917e92a0e1f4714b52fbc36734a85c5',
+ 'name': '八十一难经',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106507/',
+ 'id': '4e2e983308b34fec867fc810b3f38b84',
+ 'name': '傅青主男科重编考释',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106506/',
+ 'id': 'b49851751a834a0f9b17d49e8cd711fc',
+ 'name': '佛点头脉诀',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106505/',
+ 'id': '38eae8f9c0664f4eb9c2ad082e289fea',
+ 'name': '余无言医案及医话',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106504/',
+ 'id': '4fd3f482186b4845a01c58fe568a4613',
+ 'name': '伤科汇纂',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106022/',
+ 'id': '6da21b4bea28444bbbcbea15cc9ab477',
+ 'name': '本朝茶法',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106021/',
+ 'id': '963a51f27cd0431bb32608d45e6e97af',
+ 'name': '本心斋疏食谱',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106020/',
+ 'id': '5f2bcef952b04954bc18c308bc051cc4',
+ 'name': '张伯渊茶录',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105057/',
+ 'id': '1f8ac19673d945e1b6b20d60bbf88401',
+ 'name': '善俗要义',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106763/',
+ 'id': '2c30cb4cecfe4a88a37a95e7e5b20d39',
+ 'name': '陈张贵妃传',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106762/',
+ 'id': '6d041e12aefe427fa89a10e573ec1ee2',
+ 'name': '陳清端公文選',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104294/',
+ 'id': '137b3fc530db42508a27831910556f99',
+ 'name': '六十种曲运甓记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104293/',
+ 'id': '315c443f9460465a9cb33b897d517981',
+ 'name': '六十种曲赠书记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/123950/',
+ 'id': '4987213ef6834317a490e1b89fed5e1d',
+ 'name': '苑里志',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/113421/',
+ 'id': 'a6d96cc36b2f4a649f5173f79097b99a',
+ 'name': '至顺镇江志',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/113420/',
+ 'id': '316fde05f1a54603b6b103bdade509ef',
+ 'name': '至正四明续志',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/113419/',
+ 'id': '0da62788380449d2a24fd327883a3488',
+ 'name': '至大金陵新志',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106503/',
+ 'id': '5897828cf1bf4631b7ea69b8405edf23',
+ 'name': '伤科方书',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106502/',
+ 'id': 'e2d2fb4efdc9481c990cc8425a08cbf4',
+ 'name': '伤寒辨要笺记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106501/',
+ 'id': '3bee96f007084469ad8cb7bcc4bf98ed',
+ 'name': '伤寒证治准绳',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106019/',
+ 'id': '9e3b64a150ed463d97d58a6ddf3ce530',
+ 'name': '岕茶笺',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105056/',
+ 'id': '4e3fc478704243c39c22dc8e8e2e13a4',
+ 'name': '双节堂庸训',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105055/',
+ 'id': '595d8cca9c3a402db91053a4648c2efc',
+ 'name': '劝报亲恩篇',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105054/',
+ 'id': 'dcbae8f18c054c1887d762863ccfb099',
+ 'name': '劝忍百箴',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106761/',
+ 'id': '3988514894604cff8b11291917e4cbff',
+ 'name': '潮嘉风月记（香艳丛书）',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106760/',
+ 'id': 'e3afcd1f494b43dcb568be4bd6d7124e',
+ 'name': '潮嘉风月记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/113418/',
+ 'id': '6d916645207e49d8826a7ddcf4b72570',
+ 'name': '至元嘉禾志',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:27 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/113417/',
+ 'id': '582195033df1450ab399dec9a45ddd5c',
+ 'name': '职方外纪',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/113416/',
+ 'id': 'bbe106f759144432bd95176496dfd83e',
+ 'name': '续补永平志',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/113415/',
+ 'id': '5dcb8421414142b7bd6cf9b4e9cada8d',
+ 'name': '续纂淮关统志',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/113414/',
+ 'id': 'c84a6c5ce1d64798b44dbb6045c34d93',
+ 'name': '续修台湾府志',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106759/',
+ 'id': '85190f8b0b6d40d28d909cc748b5027a',
+ 'name': '曹野人先生传',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106758/',
+ 'id': '6a63a3bbb672446ca559e6521ca1d663',
+ 'name': '滄海遺民賸稿',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106757/',
+ 'id': '4e280bf22d1b4e85b64ccfa6488e7a5b',
+ 'name': '缠足谈',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106756/',
+ 'id': 'd53c3f9864094526a08bbe6a5bf26c28',
+ 'name': '彩云曲（有序）',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/113413/',
+ 'id': 'b177fd81382b424ab59b64342c713e2d',
+ 'name': '续修台湾县志',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/113412/',
+ 'id': 'ad3ce369e9b045bdbe8a87ff92c0ffc3',
+ 'name': '粤剑编',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/113411/',
+ 'id': 'c863e899616f4991a8092110457e77ce',
+ 'name': '类编长安志',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/113410/',
+ 'id': '0e1031d206c64545992db66f95270289',
+ 'name': '稀见地方志提要',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/113409/',
+ 'id': '61d699f84ec64e22998c5ce92f9eb3dd',
+ 'name': '福建通志台湾府',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/113408/',
+ 'id': '3a566303880f47b0aa9af6587177b8ce',
+ 'name': '福州府志乾隆本',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106755/',
+ 'id': 'ea2bb01bf80741ef81df3b85fc33a5ac',
+ 'name': '采莲船',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/113407/',
+ 'id': 'f2747e39faf84a81af472549c50f5263',
+ 'name': '福州府志万历本',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106754/',
+ 'id': '850d3119e1764fbdb39afdd62162ef62',
+ 'name': '步非烟传',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106753/',
+ 'id': '4343c48f3b9a4ba9ae4849610ad7aae5',
+ 'name': '补侍儿小名录',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106752/',
+ 'id': '25007ce1bcc4421bb63471591704fd45',
+ 'name': '补花底拾遗',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106751/',
+ 'id': 'a293db18d54640a8be1de261d494a15e',
+ 'name': '薄命曲',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106750/',
+ 'id': 'a55e59b967144006993c99be1ed3be37',
+ 'name': '敝帚斋馀谈（节录）',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106749/',
+ 'id': 'ef16f0eaa60a4e519a46a2bb42283437',
+ 'name': '碧线传',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/113406/',
+ 'id': 'bace37a1a6ca40babb5ea39129087ee4',
+ 'name': '石柱记笺释',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/113405/',
+ 'id': '18d20925a5e248bc94f12a6579af9239',
+ 'name': '石城山志',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/113404/',
+ 'id': '1cfaf5b82051454f885986da0a08cca3',
+ 'name': '真腊风土记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/113403/',
+ 'id': 'a827c5f8ba9a42aa8d48c11a5d3d8959',
+ 'name': '直隶河渠志',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106748/',
+ 'id': '0777efad25804b95b2b46c587f20c208',
+ 'name': '笔梦叙（附：顾仲恭讨钱岱檄》）',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106747/',
+ 'id': '7da2c4dd81c54b978650e7e08a713def',
+ 'name': '裨海紀遊',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106746/',
+ 'id': 'caaa514ad17c4217945361e31ea70ba8',
+ 'name': '北堂書鈔',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106745/',
+ 'id': '4ead654a64a44d8b940a70ce8586b864',
+ 'name': '北郭園詩鈔',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106744/',
+ 'id': '5cb1a7eb84334330824fe0aac6d8bd14',
+ 'name': '百花园梦记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108446/',
+ 'id': '5b53519a505148f88f6c97de7afc37e4',
+ 'name': '盛京疆域考',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108445/',
+ 'id': '1f7b46b98c7844d29d583ba79243c0c7',
+ 'name': '盖平县志',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104020/',
+ 'id': 'de09bfdfc42b496abdca992d7ec098c4',
+ 'name': '百花弹词',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104019/',
+ 'id': '7f168b94673348efadd5c19c8c44836b',
+ 'name': '清风闸',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105511/',
+ 'id': 'e7ed19998d0d42018a9c4d4f45ddc853',
+ 'name': '紫微斗数重要教学',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105510/',
+ 'id': '78614a2f4b024984b77743217ec4377a',
+ 'name': '皇极经世书',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106743/',
+ 'id': '5ff55af97fa1489cbb947e420d4b8df1',
+ 'name': '白门新柳记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108444/',
+ 'id': 'f277af8db44b4ad69d5049e72bf628a2',
+ 'name': '益部谈资',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108443/',
+ 'id': '943af1cc54814d29a138d0dadece9c7e',
+ 'name': '益州记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108442/',
+ 'id': '6ad7966c1586463487cfed4306d47304',
+ 'name': '皇明九边考',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104018/',
+ 'id': '4764fa63f86d4dc2a808019e4f0b3f22',
+ 'name': '清夜钟',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105509/',
+ 'id': '2128ba75ca124cb5ac29e7b62d97c8c3',
+ 'name': '测字秘牒',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105508/',
+ 'id': '7d252d9dc2a74bd09f379b62ec6d21c1',
+ 'name': '梅花观梅拆字数全集',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105507/',
+ 'id': '92fbd3fe4f2d442390b3b29582ff2ad5',
+ 'name': '梅花易数摘录集成',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105506/',
+ 'id': '213c56cc779542928f7d2da04b781a4c',
+ 'name': '梅花易数',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105505/',
+ 'id': 'e2897f856beb46659d521c124c8f6045',
+ 'name': '梅花心易秘法',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105504/',
+ 'id': 'b81c1319ce6a47cea7e9b362894ebfea',
+ 'name': '梅花心易',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106742/',
+ 'id': 'd878f494b11540f98d41eb5faab3701b',
+ 'name': '哀臺灣箋釋',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106740/',
+ 'id': 'edea35b2d1094676b0df77333c141509',
+ 'name': '风流奇案',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106739/',
+ 'id': '53171a748d7540d2a7067c234db6b2d8',
+ 'name': '广陵潮',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106737/',
+ 'id': '84a9dd09d7004008894315091947c698',
+ 'name': '都是幻',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108441/',
+ 'id': 'cdc3eaa93be945bbb3e35ddcced02592',
+ 'name': '畿辅通志',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108440/',
+ 'id': '967f58041f724f029471d3007244a846',
+ 'name': '王家营志',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108439/',
+ 'id': '50896d805a3a43649eb9d2e8e9426514',
+ 'name': '献花岩志',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108438/',
+ 'id': 'fe5fa493c0e64c9dadecd37cb026d8b1',
+ 'name': '澎湖续编',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104017/',
+ 'id': 'a9ff5fabaef246e1ac4c4a0b0943df80',
+ 'name': '海刚峰先生居官公案传',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104016/',
+ 'id': '6787628799514dc5a4c264518c023646',
+ 'name': '海公大小红袍全传',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105503/',
+ 'id': '23c1c67288a34429a7b6995774dc58ff',
+ 'name': '梅花基础及卦例',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105502/',
+ 'id': 'ec46967303fa4c5286c8b831a5bfa973',
+ 'name': '易经（白话版）',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105501/',
+ 'id': 'f434b2fb145748c2ba11ad8d40c364c6',
+ 'name': '易经证释',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103387/',
+ 'id': '7981157bf9b144f8bcc5eaa5459e3365',
+ 'name': '古俪府',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107483/',
+ 'id': '70a1b1e4d1b24397ae53fbd3363f222f',
+ 'name': '寄禅和尚行述',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106736/',
+ 'id': '01eafadce1c54e70bcc5d231b33e4650',
+ 'name': '红楼补梦',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106735/',
+ 'id': '5d25c7ba8edc46dfb6ad4bfbe04f8b23',
+ 'name': '闺门秘术',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106734/',
+ 'id': 'd8bec5ded90442e3af3bd9d6dd86a404',
+ 'name': '春柳莺',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106733/',
+ 'id': 'bbfe789de8f44b1a9bfd9834e884cbc5',
+ 'name': '春消息',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108437/',
+ 'id': 'da987969a57543db89867ce1c7279583',
+ 'name': '澎湖纪略',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108436/',
+ 'id': 'd2dd6aea8dc94bf1b4c85aba79740422',
+ 'name': '澎湖台湾纪略',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104015/',
+ 'id': '65937c72706e44eb835c8cc956b45b3c',
+ 'name': '武王伐纣平话 吕望兴周',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105500/',
+ 'id': '3efda1009c104fe28d0a85031e02faa7',
+ 'name': '易经明道录',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108175/',
+ 'id': '023efce744e44c83aec5383462034e18',
+ 'name': '天仙道戒忌须知',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103386/',
+ 'id': '3fcde09f85184729ae4fbd8a87560909',
+ 'name': '古今源流至论',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106018/',
+ 'id': '8b0c8cd1f5ff4a6187b9cddb85e3d31c',
+ 'name': '山家清供',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107482/',
+ 'id': '9ecf73f5d3e14f95ba109c26b33501cc',
+ 'name': '安士全书',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107481/',
+ 'id': '040de9ba78704278b3f24599c53dd4c8',
+ 'name': '学菩萨戒法',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107480/',
+ 'id': 'e42741fedeb64f93b8e8268a56dac686',
+ 'name': '妙法莲华经纶贯',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104292/',
+ 'id': 'dd63ea6073e644d9802d526af74314c4',
+ 'name': '六十种曲西楼记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106732/',
+ 'id': 'f92de1291c5c4dcb89468db171053350',
+ 'name': '玉支肌',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106731/',
+ 'id': '1b96b14dedd546ffab5618c2af256b16',
+ 'name': '红闺春梦',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106730/',
+ 'id': 'a3bb01c0c68f4412a3e0a1c07ab2ebdb',
+ 'name': '达磨出身传灯传',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108435/',
+ 'id': '3530bf17a5e249a9a2aadc4b925731d5',
+ 'name': '澎湖厅志',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108434/',
+ 'id': '27e6719218b04efeb7e18048095fc79a',
+ 'name': '澉水志',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108433/',
+ 'id': '434f35fe8f4e4627bc96286fa1e9929c',
+ 'name': '漳州府志选录',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104014/',
+ 'id': '1249539aeaa741288b7292201172ccde',
+ 'name': '桃花庵鼓词',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104013/',
+ 'id': 'c68f0269405d48ac91a5da11527c0521',
+ 'name': '明刻话本四种',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104012/',
+ 'id': '516045805d674e3a9efedaef1756697c',
+ 'name': '新编五代史平话',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105499/',
+ 'id': '319f66a3263f445f96cfaa317b605837',
+ 'name': '易经六十四卦注解',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108174/',
+ 'id': 'd168f30b1070484bb0e0d0db88556f09',
+ 'name': '天仙心传',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103385/',
+ 'id': '3b922fbd4dbc404c99de9a04f4964dda',
+ 'name': '古今姓氏书辩证',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103384/',
+ 'id': '303e47b531fb46ce9c54f44c9a17d024',
+ 'name': '古今同姓名录',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103383/',
+ 'id': '026cabe2d76e4cc88d6ea47d71454366',
+ 'name': '古今合璧事类备要',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103382/',
+ 'id': '1924defdb2e846329651a57a58411e5c',
+ 'name': '古今事文类聚',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103381/',
+ 'id': '0095d5386b3d4559aca53fddf6210208',
+ 'name': '历代制度详说',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106017/',
+ 'id': 'd62fd80140524b778df167715cdd4edb',
+ 'name': '大明水记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106016/',
+ 'id': 'bbc791f016ef42dcbee3f8e02dc01831',
+ 'name': '品茶要录',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106500/',
+ 'id': 'b294261b92e8499ea8dbf9a693a5923f',
+ 'name': '伤寒论集注',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107479/',
+ 'id': '35da094a169449b4a6803460f302c8a6',
+ 'name': '妙法莲华经台宗会义',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107478/',
+ 'id': 'a54b979d2c8241a9b74c0fa2d6d35045',
+ 'name': '妙法华莲经玄义节要',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107477/',
+ 'id': '13e9bb143996486aabdc8c1adb5d35d3',
+ 'name': '天圣广灯录',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104291/',
+ 'id': '48032848f1cc407ba378964e716f2113',
+ 'name': '六十种曲西厢记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104290/',
+ 'id': '5061d2f606bb42ab96094e19eafd0ee4',
+ 'name': '六十种曲西厢记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104289/',
+ 'id': 'ec7d32a162c146acb4ab6718d1bc03f7',
+ 'name': '六十种曲蕉帕记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104288/',
+ 'id': 'fd9df7dfe3334792a447d7d2b1c782c0',
+ 'name': '六十种曲荆钗记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106729/',
+ 'id': '84e518d936494808903de00341dc2df0',
+ 'name': '北戸録',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108432/',
+ 'id': '728e0e412845416aa96d05430cda506c',
+ 'name': '漕运通志',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108431/',
+ 'id': '7d84c898b5484256ab840bac6fe1dc9b',
+ 'name': '滇略',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104011/',
+ 'id': '863fbd52e97b41ed9d922c37ee95040c',
+ 'name': '新民公案',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105498/',
+ 'id': 'a33e991dcc8548f7ab907b7b66c438ec',
+ 'name': '易经',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105497/',
+ 'id': '1cadfa5056d6422c8a1b7671cc5628c1',
+ 'name': '易童子问',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108173/',
+ 'id': '2865c0957c784a8b981ab28e70183c6f',
+ 'name': '天乐集',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108172/',
+ 'id': '3888cc4131114b588fbafc25d3227a14',
+ 'name': '大道真传',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108171/',
+ 'id': '026864631c414222acc856be8b656af8',
+ 'name': '大成捷要',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103380/',
+ 'id': '56f58d6e3420464a9a45f873e52297de',
+ 'name': '别号录',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103379/',
+ 'id': 'ad16507d2882405ca1a8d22a5314904f',
+ 'name': '六帖补',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103378/',
+ 'id': '9d81dc58193c4cc3a3fa939b41b112e8',
+ 'name': '八面锋',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106015/',
+ 'id': '1bfe75339ba04599ac4ea5d22ca2cd55',
+ 'name': '十六汤品',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106499/',
+ 'id': 'a1f0c932cc7d4eaf8f2225328344e573',
+ 'name': '伤寒论宋版',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107476/',
+ 'id': 'a78c96efa0c74a568f5a5ea773fa2181',
+ 'name': '大明高僧传',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107475/',
+ 'id': '068cb360b03440e08b7ad651ddb76c82',
+ 'name': '大慈恩寺三藏法师传',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107474/',
+ 'id': '600c70a6b48b46dc84c59f116fd9a6a2',
+ 'name': '大佛顶如来密因修证了义诸菩萨万行首楞严经玄义',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104287/',
+ 'id': 'eedbbf769de94dd1a7b4e05f614b1d85',
+ 'name': '六十种曲节侠记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106728/',
+ 'id': '0a34d3b3cbf94426936b5f7a57dd2f98',
+ 'name': '曲海總目提要',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106727/',
+ 'id': '813e1bca836f4955a61f61d28d3c02f6',
+ 'name': '本事詩',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106726/',
+ 'id': 'cc2470fa45b74924b86ddf9797c17bdb',
+ 'name': '全後漢文',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106725/',
+ 'id': 'f0f4ad6330544ee5b6163b6f4040c76b',
+ 'name': '毛诗多识',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108430/',
+ 'id': 'ae9d275a585d4d469e73e8422c64998f',
+ 'name': '滇游记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104010/',
+ 'id': '9a5bf24c83ca4ec48c08b1603feacde1',
+ 'name': '敦煌变文选',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104009/',
+ 'id': '2770b8f98f404f54a8ebf1797042f87b',
+ 'name': '廿一史弹词',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:28 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104008/',
+ 'id': 'f1a6ef2a166d49c8a291a2697dd4c616',
+ 'name': '廉明公案',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104007/',
+ 'id': 'fe6d201c940148eaa0399bd6f344023e',
+ 'name': '峥霄馆评定通俗演义型世言',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105496/',
+ 'id': '56a5e3c06fdd4987afe5210a0df0a5f0',
+ 'name': '易图讲座',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105495/',
+ 'id': '393ae501a18f4bf29a3b4b00c0085046',
+ 'name': '易医玄经',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108170/',
+ 'id': '84e5f468b288434a8270cbf4afc4e111',
+ 'name': '墉城集仙录',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108169/',
+ 'id': '72804c769ccb455a82a033a5083501aa',
+ 'name': '坐忘论',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108168/',
+ 'id': '0cd28ed3ace44fd8afcf3fe6e1db2196',
+ 'name': '圆峤内篇',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108167/',
+ 'id': 'fa5e45f28ae94a5a81906110adb8f33a',
+ 'name': '唱道真言',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103377/',
+ 'id': '1a4745de233b41468a4b073c955d82b0',
+ 'name': '全芳备祖集',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103376/',
+ 'id': '254762f678464682bb314d4a027ce011',
+ 'name': '元和姓纂',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103375/',
+ 'id': '3ae8d97082d246ca84e437c3723febdb',
+ 'name': '事类赋',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106014/',
+ 'id': '24b0e8cc19f949fc98f747aa0402944e',
+ 'name': '养小录',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106013/',
+ 'id': 'c1bf04de91db4fcd84bb577c9116209b',
+ 'name': '云林堂饮食制度集',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106012/',
+ 'id': '28554e113a454bf984ee324c75582351',
+ 'name': '东茶记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106498/',
+ 'id': '280a73fe6a2a477b9e947857afeb6eb0',
+ 'name': '伤寒舌鉴',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107473/',
+ 'id': '0a7176b8756442c9adb9c6a7e1caafc2',
+ 'name': '大佛顶如来密因修证了义诸菩萨万行首楞严经文句',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107472/',
+ 'id': 'b37306a7ea5c491b854fe321e77ca678',
+ 'name': '大乘起信论裂网疏',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107471/',
+ 'id': 'af70da11846e4f7e9112986d60555e62',
+ 'name': '大乘止观法门释要',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107470/',
+ 'id': '5f9404f3f47649919dd37ba9dd09b4a4',
+ 'name': '坛经法海本',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104286/',
+ 'id': 'b29a30c45ba34b73b75fc70f5fc9a375',
+ 'name': '六十种曲绣襦记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104285/',
+ 'id': '95274586db0a4cd7a3bdf8ee3694a669',
+ 'name': '六十种曲红梨记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104284/',
+ 'id': '26936dff183743178fc2dd83c93ddf6b',
+ 'name': '六十种曲红拂记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104283/',
+ 'id': '2ea4e582e0d744f4a19b730fc8f86932',
+ 'name': '六十种曲紫钗记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106724/',
+ 'id': 'ab5b295eb02f4691b0b04f17404d8066',
+ 'name': '周易集解',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106723/',
+ 'id': 'b3d7690a3ee744eb98318f5c0d8b436d',
+ 'name': '潘黃門集',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106722/',
+ 'id': '783e353870fc448ea2878d703c858e29',
+ 'name': '內自訟齋文選',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104006/',
+ 'id': 'e64c43205184450594693d8adce0c377',
+ 'name': '小五虎演义',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104005/',
+ 'id': '172fa0a67e55431989563d243ad60f97',
+ 'name': '大八义',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104004/',
+ 'id': 'f49eae01715c43feb1ed13a92faf60d3',
+ 'name': '唐传奇选辑',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105494/',
+ 'id': 'd46e0f956bc54f3b84c73b9823301633',
+ 'name': '新本郑氏周易',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105493/',
+ 'id': 'dad9f4d0fbf04902b106809b5b675c95',
+ 'name': '教你学梅花预测',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105492/',
+ 'id': '69a69e33ffc7430bbfdb25b3addd820d',
+ 'name': '心易密解——“读象法”',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105491/',
+ 'id': 'c6a0fb7af7dc4db2b0e5249c532c29ed',
+ 'name': '子夏易传',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105490/',
+ 'id': '800f2649035441528bfbc7e29f6a0ce5',
+ 'name': '周易集解',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108166/',
+ 'id': '5f48ab6b480d4a46baae213cf63a890d',
+ 'name': '唐玄宗御注道德真经',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108165/',
+ 'id': '1c9b0b0f92e54b259bfde22d96a8f5dd',
+ 'name': '唐易州龙兴观道德经碑文',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108164/',
+ 'id': '8c6aceea73e74855a23037e4f890da5f',
+ 'name': '吕祖金华宗旨阐幽问答',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103374/',
+ 'id': '0617102d9b7b4f10a2ec970b9691f2d9',
+ 'name': '事物纪原',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103373/',
+ 'id': '2b7b3369b321485e9341a41c9ad890b1',
+ 'name': '书叙指南',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103372/',
+ 'id': 'd062185bc9bf4116a49d6de1c36cc4ae',
+ 'name': '万姓统谱',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103371/',
+ 'id': '7b47c063ee1546fd8cc43e94f7498f24',
+ 'name': '龙筋凤髓判',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103370/',
+ 'id': 'ee7af0c704a94d6c99a245c4981c2d8d',
+ 'name': '蒙求集注',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106011/',
+ 'id': '3797f48ea07a41d69665255c6a427533',
+ 'name': '东溪试茶录',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106010/',
+ 'id': 'b25d155966d441bf82301655461951da',
+ 'name': '醉古堂剑扫卷',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106009/',
+ 'id': 'f18c16229b384081b5c42db5af111402',
+ 'name': '宣和北苑贡茶录',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106497/',
+ 'id': '443f077c1c2a4286958998ed3f9d4854',
+ 'name': '伤寒缵论',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106496/',
+ 'id': '8e40582329b34b2eb1f380065f724674',
+ 'name': '伤寒来苏集',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107469/',
+ 'id': 'fb12f3e6280d4b129221a1590cb1f8aa',
+ 'name': '四十二章经',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107468/',
+ 'id': 'f76bf6b3767e4ed7b05b60fdc9ea2460',
+ 'name': '印光法师文钞续编',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107467/',
+ 'id': '0c4d6028683b452c83c5720b55440239',
+ 'name': '印光法师文钞三编',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107466/',
+ 'id': 'd23dcb5201fb48249001c33033e854a1',
+ 'name': '印光法师文钞',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107465/',
+ 'id': '9a9d7e39ff554b89ac054f86d00ec641',
+ 'name': '占察善恶业报经行法',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107464/',
+ 'id': '0f35b5f0515d4a5d9c399029d0dde538',
+ 'name': '占察善恶业报经玄义',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104282/',
+ 'id': '327c23c4ac8e430d9f38718d1387c42e',
+ 'name': '六十种曲紫箫记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104281/',
+ 'id': 'c3c447a0daf14fa3a52395a10d541eab',
+ 'name': '六十种曲精忠记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104003/',
+ 'id': 'bfd8049c15c4428c85ce462cde337738',
+ 'name': '呼家将',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105489/',
+ 'id': 'f784f121614745c1a716f7de9b4eb61a',
+ 'name': '周易白话解',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105488/',
+ 'id': '5171447780cc44989b7fc477359353eb',
+ 'name': '周易略例',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105487/',
+ 'id': 'b47e57296fdf436ab79e5844c426528b',
+ 'name': '周易注',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105486/',
+ 'id': '5ce20fc9c7624b6a98d7172959bb3fb1',
+ 'name': '周易江湖',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108163/',
+ 'id': '8404e63d88744020926d9d18e628e35e',
+ 'name': '吕祖指玄篇诗注',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108162/',
+ 'id': '318095e0c1e54b89aff0fa0645d1fa5e',
+ 'name': '吕祖年谱海山奇遇',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103369/',
+ 'id': 'd02d81b990de4a3799e900ff840f4102',
+ 'name': '皇览辑本',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106008/',
+ 'id': '9f2fd81bf660442d8788552e272c5f7e',
+ 'name': '随园食单',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106007/',
+ 'id': 'f534723c3c084279a8c21527869485fe',
+ 'name': '酒经',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106006/',
+ 'id': 'e49f35c480c64ba199b50de39e9e9788',
+ 'name': '茶具图赞',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106005/',
+ 'id': '419dd0b4f816451cac20c35b8c3b3299',
+ 'name': '茶说',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106004/',
+ 'id': '8a8913ec4e254d45b235fb7951b16c84',
+ 'name': '茶疏',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106003/',
+ 'id': '8b017a69a8ff4909a4446b788b22872f',
+ 'name': '茶谱',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106495/',
+ 'id': 'eca3413b6c9546aa801722c119b7ce12',
+ 'name': '伤寒杂病论桂林古本',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106494/',
+ 'id': 'a9bd10c3febe4d2abcfbbe1ad4b2992d',
+ 'name': '伤寒悬解',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106493/',
+ 'id': '9706b4331745404f8e31c51eec90aabb',
+ 'name': '伤寒恒论',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106492/',
+ 'id': '88bad1070dec4a6a898d0085ed63de17',
+ 'name': '伤寒心境别集',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107463/',
+ 'id': '4783a8faba7f4e139fa1937ebcb527df',
+ 'name': '博山和尚参禅警语',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104280/',
+ 'id': '86a88e9fd6624b3c99c633a85af8d4d6',
+ 'name': '六十种曲种玉记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104279/',
+ 'id': '2f97fe8d0abb4d42a4a8766aeff8f0d4',
+ 'name': '六十种曲目录',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104278/',
+ 'id': 'd203c1b0e80a493e8609f2cf872fc396',
+ 'name': '六十种曲白兔记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104002/',
+ 'id': '2dd1ee855aaa417799f9898190590bd0',
+ 'name': '双灯记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104001/',
+ 'id': 'cf2fa126fe4f4c7d8a0b3f762d697e0e',
+ 'name': '包公案之百家公案',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104000/',
+ 'id': '4495992d626649ddbd9b4f57bcdc1d70',
+ 'name': '包公案',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103999/',
+ 'id': '229948c0066b496e99316d43c8e53ce0',
+ 'name': '前汉书平话',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105485/',
+ 'id': '096c8581eed54d459f7982b8d3ec757b',
+ 'name': '周易本义',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105484/',
+ 'id': '4cd805212533443ba254e8e3a5ba1f41',
+ 'name': '周易参同契',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105483/',
+ 'id': '36fcdc3ac8684192a0b4e4ed32a2cba5',
+ 'name': '周易全解',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105482/',
+ 'id': 'c924b740586c4d7e95ed1dc5ef6292b6',
+ 'name': '刀骨梅花',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108161/',
+ 'id': 'a8d7374078b84e2f84a28885f68ea518',
+ 'name': '吕祖师三尼医世说述',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108160/',
+ 'id': 'befed4bb16a444b58773ea0e09f7bfd8',
+ 'name': '吕祖全传',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108159/',
+ 'id': '609f5c2092a548c08f49c61decdc3fef',
+ 'name': '吕祖全书',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108158/',
+ 'id': '72693358e8644957acb03e5eaf83348a',
+ 'name': '吕祖三尼医世说述管窥',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103368/',
+ 'id': 'f69aeb681f5e4a419d3d19748709e3d3',
+ 'name': '清稗类钞',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103367/',
+ 'id': 'a355ebb0ba154ea9a437718d30db3b3e',
+ 'name': '永嘉八面锋',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103366/',
+ 'id': '1bcf08854e8343e4bfe6ee5297b14b2c',
+ 'name': '永乐大典残卷',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106002/',
+ 'id': 'e34855c3b897459db8cf6f62c6f7b4bf',
+ 'name': '茶录',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106001/',
+ 'id': '7ed3ca9353da41959ebff16ba79e0967',
+ 'name': '茶录',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106491/',
+ 'id': 'a772ec0969174911a01e77a7d1bbbbb8',
+ 'name': '伤寒审证表',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106490/',
+ 'id': '4d7305ea6a594902aece829801dd6a49',
+ 'name': '伤寒兼证析义',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106489/',
+ 'id': '2df1bd0f1bbd4fad9f1d6c76660e2967',
+ 'name': '仙授理伤续断秘方',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106488/',
+ 'id': '0c6dd49848f14067b58bd28cf751bf5e',
+ 'name': '仙传外科集验方',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106487/',
+ 'id': '4b044941c62d4a00be74982cf7e4f8e4',
+ 'name': '产宝',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106486/',
+ 'id': '2ee7bd441ecf46fcb2cdd08900271ba8',
+ 'name': '产后十八论',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107462/',
+ 'id': '8de5928680414a78860654ba1192a65c',
+ 'name': '南宋元明禅林僧宝传',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107461/',
+ 'id': 'b0989fc4e6f344d6aa3b066e06864327',
+ 'name': '出三藏记集',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104277/',
+ 'id': 'd5745ed4333745e889c4634653a0793f',
+ 'name': '六十种曲琵琶记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104276/',
+ 'id': 'c3f1272df8ec40bc9adf411aa05ef605',
+ 'name': '六十种曲琴心记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103998/',
+ 'id': '6a8bfe6ed9c64bcc83452bd26ec33a5a',
+ 'name': '刘公案',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103997/',
+ 'id': '219d33f4d7b94d5a999dd88d55581971',
+ 'name': '全相平话三国志至治新刊',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103996/',
+ 'id': '6fe556be47614af499e505cd8431cf04',
+ 'name': '儿女英雄传 续儿女英雄传',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103995/',
+ 'id': '0d3f0b3d950d4e9e821159e150ccdcb6',
+ 'name': '丽史',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103994/',
+ 'id': 'd13485f3b2e0483b8c86f277251af909',
+ 'name': '三国志平话',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103993/',
+ 'id': 'b31272fd850744cba41e0e1d33dbe7d6',
+ 'name': '三侠剑',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105481/',
+ 'id': '842d373c18d64c7bbc86359d16c390d1',
+ 'name': '东坡易传',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105480/',
+ 'id': 'fc4a3642cafc4a1ab316ef1a7664ba4a',
+ 'name': '藏山雷学',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105479/',
+ 'id': 'aa7ed24379c74206b93d1d2945af9d61',
+ 'name': '续六爻新大陆',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108157/',
+ 'id': 'd9f35232e2c54352b2b00164f2b3672c',
+ 'name': '古书隐楼藏书',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108156/',
+ 'id': 'ec8a0a58fd0443cf8c54af184993e623',
+ 'name': '参同直指',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103365/',
+ 'id': 'd4a72b79be314dc48961ff2697f836d5',
+ 'name': '小字录',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103364/',
+ 'id': 'd97dbf39ecb24bc3993906ec80db4356',
+ 'name': '宋稗类钞',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103363/',
+ 'id': '5f3fc1c0b88246b4a05f24d8921578ad',
+ 'name': '宋朝事实类苑',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103362/',
+ 'id': 'b530eff54ffd40518e1bc9ff287823e0',
+ 'name': '太平御览',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103361/',
+ 'id': 'e44ccf2d235e4107a1944f5814cd1284',
+ 'name': '古今类传',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106000/',
+ 'id': '5a766a5bf2b94c28bb7802c78e009d7e',
+ 'name': '茶寮记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105999/',
+ 'id': '48f9750390974c21a44fc66f1f35d3f9',
+ 'name': '茶解',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106485/',
+ 'id': '9b08127dc70442a7aaf412fa2cec40ae',
+ 'name': '丹医秘授古脉法',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106484/',
+ 'id': '8fc799a21ad04b319997ecc3ece08c08',
+ 'name': '中藏经',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106483/',
+ 'id': '5e1f190ab04743aba3e7c8f51d83a6f3',
+ 'name': '中国医籍考',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106482/',
+ 'id': 'd66c9684c38f4732ac6352de6c0b363b',
+ 'name': '中医蒙求',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107460/',
+ 'id': '30763ac8a2164a45b828884db35ea6fb',
+ 'name': '六组坛经',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107459/',
+ 'id': '9fba47ba9c844ab498834dc4aafd94ea',
+ 'name': '八大人觉经略解',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104275/',
+ 'id': '609ac0aed7d44ae9b4500e412bb0b975',
+ 'name': '六十种曲玉镜台记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104274/',
+ 'id': 'acf56efef6ef432da5210c4916e1906d',
+ 'name': '六十种曲玉簪记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104273/',
+ 'id': 'fe967c55aa794b3f989b0e06006f1b5f',
+ 'name': '六十种曲玉环记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104272/',
+ 'id': '2a9bf54ac220453db2f14255f3b22811',
+ 'name': '六十种曲玉玦记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104271/',
+ 'id': '70edc48d720948b8bc95eb8e39d48ad9',
+ 'name': '六十种曲玉合记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103992/',
+ 'id': '078c5c537b7c4349a492b496c201dafc',
+ 'name': '七国春秋平话',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105478/',
+ 'id': '85116ce018994a4b85a1e4796476e1e8',
+ 'name': '秘传断易鬼灵经',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105477/',
+ 'id': 'aae2d14bd8f048428b08e70f86cb9a2a',
+ 'name': '真命六爻',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105476/',
+ 'id': '4313b87d33714c7f98278f62d03a8847',
+ 'name': '玄空相逢系列',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108155/',
+ 'id': 'a89d0060e19d47e68b5a675aef8c4575',
+ 'name': '参同契阐幽',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105053/',
+ 'id': '0be26676f3c64445a728b1200db07f8e',
+ 'name': '劝孝歌',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105052/',
+ 'id': 'f786b660c9ae4c27a922794a652ad428',
+ 'name': '养真集',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105051/',
+ 'id': 'c4f161f0eabc40bdad71bab90d3fb97d',
+ 'name': '今世说',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103360/',
+ 'id': 'd1c9eaf704be41a981e2d73725e69b36',
+ 'name': '古今图书集成',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103359/',
+ 'id': 'c912ef92587343c789b8ee8ecfc398f0',
+ 'name': '北堂书钞',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105998/',
+ 'id': '11acd7d6145a441d9916020048e371b1',
+ 'name': '茶笺',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105997/',
+ 'id': '570a1346001744c480b3c701134e6895',
+ 'name': '北苑别录',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105996/',
+ 'id': '3a6bfead2cdc4c5daeb6036df8b0f0d0',
+ 'name': '大观茶论',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105995/',
+ 'id': '65c243ea6c054adfa4693c28c0ad6c32',
+ 'name': '宣和北苑贡茶录',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106481/',
+ 'id': '9b565d0f8e994809a0c07a83390e9e2a',
+ 'name': '万氏秘传外科心法',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106480/',
+ 'id': '77940114076c4fc5bcae9fbaa5347bed',
+ 'name': '万氏家传养生四要',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107458/',
+ 'id': 'fb292ca5175541c6bbd8d0194afcbb44',
+ 'name': '入唐求法巡礼行记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107457/',
+ 'id': 'c24a037732954899b39c7cf9f4c981e2',
+ 'name': '元代白莲教资料汇编',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107456/',
+ 'id': 'da4aa9809c2d4d0681c6afecd0ca8e7b',
+ 'name': '佛遗教经解',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107455/',
+ 'id': '709220f36caa4f0fa30aab68d3842dac',
+ 'name': '佛说阿弥陀经要解',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107454/',
+ 'id': '0b32d5c0bd354bfeb9ae1b3de8f6da75',
+ 'name': '佛说盂兰盆经新疏',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104270/',
+ 'id': 'a8f8d45fa6d84198977dd2055daf50f7',
+ 'name': '六十种曲狮吼记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104269/',
+ 'id': 'ffcc0b632fd14017986bcd1576ce5a4f',
+ 'name': '六十种曲焚香记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104268/',
+ 'id': 'd8b7c31f7187422d8a074b1aeaaf440e',
+ 'name': '六十种曲灌园记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104267/',
+ 'id': '637a97f3958a444bba28d63976937e10',
+ 'name': '六十种曲浣纱记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103991/',
+ 'id': '357c1947ea4e45a6a3b3d08136afc953',
+ 'name': '百花弹词',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103990/',
+ 'id': '6e8fed129d3546d5ab9c7dd04a111346',
+ 'name': '郭公案',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103989/',
+ 'id': '1447509c3e894c3da3bcac8e5824e0be',
+ 'name': '海公案',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105475/',
+ 'id': '9c4785651f2f4bf79616f859d192575a',
+ 'name': '焦氏易诂',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105474/',
+ 'id': 'f7009a569f5243299848058e70ddeb7f',
+ 'name': '焦氏易林注',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105473/',
+ 'id': '8c54ca78c985448db93e5229a043ad4d',
+ 'name': '点破千年六爻弟子班面授教材',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105472/',
+ 'id': '3e5c15ca04764545b4bc86f6764187d5',
+ 'name': '火珠林',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108154/',
+ 'id': '3d60c557373e4057a698cc4a9990eca5',
+ 'name': '冲虚经',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108153/',
+ 'id': '420837821c444c38bb26875d9bf2c384',
+ 'name': '内炼金丹心法',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105050/',
+ 'id': '052dbbccc19a42f29fd9154f492d1d0d',
+ 'name': '予学',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105049/',
+ 'id': '492e665738ff47edb7af5d43a115b3c5',
+ 'name': '了凡训子书',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105048/',
+ 'id': 'f7b6833d8c074ede8b36db5c80daf720',
+ 'name': '乡言解颐',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105047/',
+ 'id': '786fdaa92e5441ffb934bd17c18edcd3',
+ 'name': '中枢龟镜',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105046/',
+ 'id': '91af4f6d633b4e469922db3861deb9f3',
+ 'name': '世范',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103358/',
+ 'id': 'e0b34eeacb924ccb819a4b09733ae6e0',
+ 'name': '事林广记续集',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103357/',
+ 'id': '996aa8f778f244149008577cd7caaee0',
+ 'name': '事林广记后集',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103356/',
+ 'id': '16efb3bba4be4394b070e4ae29213135',
+ 'name': '事林广记前集',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103355/',
+ 'id': '12181fe4f7484f43bb6751e27493ef52',
+ 'name': '事林广记别集',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105994/',
+ 'id': '0aa246dc17024ed8931994518fbd5366',
+ 'name': '北苑别录',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105993/',
+ 'id': 'c8a79e6b60e745049c159d2e781745b9',
+ 'name': '岕茶汇抄',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106479/',
+ 'id': '933c22c7902e4dc6bfde8fe29f3d0ea7',
+ 'name': '七十二症辨治方法',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106478/',
+ 'id': 'a49949461c2640be9ca5ca319277a742',
+ 'name': '一瓢医案',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106477/',
+ 'id': '776ef31d40544fd78de26956dcfb51d5',
+ 'name': '养生随笔',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106476/',
+ 'id': '14d39663479b4b07afb9527b8f87073a',
+ 'name': '铜人针灸经',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106475/',
+ 'id': 'efb65d7179c14515a3dbfa61379c7181',
+ 'name': '鬼门十三针',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106474/',
+ 'id': 'd05fd7ed4ae04c9d91977599276df866',
+ 'name': '针邪密要',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107453/',
+ 'id': 'e45148e40b0748a3b55911dfcaa8f7f9',
+ 'name': '佛说梵网经菩萨心地品合注',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107452/',
+ 'id': 'eeccf0030d6a46369b4924506247e668',
+ 'name': '佛说斋经科注',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107451/',
+ 'id': 'f73aa9ce65be41c08b8a1a5a7c219665',
+ 'name': '佛说戒消灾经略释',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104266/',
+ 'id': '1b7ebd4299684b1584c5d6839d857719',
+ 'name': '六十种曲水浒记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103988/',
+ 'id': '62a695b93b114be88daac07101bdac8c',
+ 'name': '狄公案',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103987/',
+ 'id': '9eaf2e0fdb7b42b1991fad9f1eeebaa2',
+ 'name': '五虎征西',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103986/',
+ 'id': '394204e9730048d29704e4983e34b967',
+ 'name': '五虎平南',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103985/',
+ 'id': '688fa94231a546dc98328d69989f4a4e',
+ 'name': '七剑十三侠',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108152/',
+ 'id': '7ff47b2d157a48108862c72eca14c3bb',
+ 'name': '内功四经',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105045/',
+ 'id': 'ff04e6179c6646e9a17d50f5f5d6234f',
+ 'name': '三元参赞延寿书',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105044/',
+ 'id': '94dbadd310534073b58846955741ecdf',
+ 'name': '中論',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105043/',
+ 'id': '51f58dc9be184b17946df1bcc03edc05',
+ 'name': '幽梦续影',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105042/',
+ 'id': '37856d5c6dac4abc81413871fb5a49b0',
+ 'name': '颜氏家训集解',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105041/',
+ 'id': '00687c600160445ab09dfecf663554ec',
+ 'name': '颜氏家训',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103354/',
+ 'id': 'bd58359d3b6845e497d6d2c581dac8e7',
+ 'name': '艺文类聚',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103353/',
+ 'id': '5fd3d3694afb40359fef2c67c825b3a7',
+ 'name': '太平广记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103352/',
+ 'id': '73c997866ce2464db6ae66082e4ae37b',
+ 'name': '太平御览',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105992/',
+ 'id': '73e0baabd7654212b6260dfba3904085',
+ 'name': '北山酒经',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105991/',
+ 'id': '1e18463cc3bc469c9a62fbe06f03a8f3',
+ 'name': '随园食单',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105990/',
+ 'id': '08197c2b44dd40d8a3fd5f0df88c6d59',
+ 'name': '茶经',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106473/',
+ 'id': 'ca52897cdd9d4f8891427084781d1134',
+ 'name': '铜人针灸经',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106472/',
+ 'id': '6ddca10500984a5cad0e59f0276429d4',
+ 'name': '中医内科方剂索引',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107450/',
+ 'id': 'fa09076b8b984fbea0dfe071d51d9533',
+ 'name': '佛说四十二章经解',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107449/',
+ 'id': '3bccb3c8a05e42f0a05cd6229ab32337',
+ 'name': '佛说优婆五戒相经笺要',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107448/',
+ 'id': '8e1a58bf8541443f8bd726684a1785d9',
+ 'name': '佛果圆悟禅师碧岩录',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107447/',
+ 'id': 'c8b047245d894e4d84e6ca0135fbc06f',
+ 'name': '优婆塞戒经受戒品',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104265/',
+ 'id': '2bfa78f5af1a4bedb9e254a29ce3ffc3',
+ 'name': '六十种曲杀狗记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104264/',
+ 'id': '638ce75c2c4d4199acb37b8a1afc4797',
+ 'name': '六十种曲春芜记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104263/',
+ 'id': '9b3a1e1eef804a4798dbfa9ea4dee596',
+ 'name': '六十种曲昙花记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104262/',
+ 'id': 'c46554748ab440948eb22af8c836a4c8',
+ 'name': '六十种曲明珠记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103984/',
+ 'id': 'a8cd6ba81018427a96449ae0f497fd73',
+ 'name': '儿女英雄传',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103983/',
+ 'id': 'e82e50bb1abc46759ae90e07149764fd',
+ 'name': '续小五义',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103982/',
+ 'id': '7c4a9a93a9f54e05b929782a2e07776c',
+ 'name': '小八义',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103981/',
+ 'id': 'ca96c26ab5e34269975a9c2a66632456',
+ 'name': '大八义',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108151/',
+ 'id': '02dbccc6e9334915a895286a99c000ce',
+ 'name': '内修十论',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:29 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108150/',
+ 'id': 'ecdd086f266e435cadd22a3dd97a9b0e',
+ 'name': '关窍要旨',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108149/',
+ 'id': 'bbfef031bae64eaa9efb5ee64a1dfa16',
+ 'name': '元气论',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105040/',
+ 'id': '206fce1ba7e94e84995b3fdcdb2da20f',
+ 'name': '王守仁全集',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105039/',
+ 'id': '7cae78e33ea840b6b041926acdf99e4f',
+ 'name': '說苑',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103351/',
+ 'id': '700c68e4723b417fa4d48555baee3b04',
+ 'name': '初学记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103350/',
+ 'id': '89ebce1393cc499e99f49aaf3334e188',
+ 'name': '册府元龟',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103349/',
+ 'id': 'a0337f1fa0b6478c9d522b50879f0c0a',
+ 'name': '太平广记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/103348/',
+ 'id': 'c7563189f4bd4c339144d4b532854d16',
+ 'name': '初学记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105989/',
+ 'id': '12fdf16bef3a4d869bf127f1cc0cca39',
+ 'name': '阳羡茗壶系',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105988/',
+ 'id': '91b1413db7ce411dba40d312df0070ec',
+ 'name': '煮泉小品',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105987/',
+ 'id': '267d109bae7b4456a30e38e1bf6a3edf',
+ 'name': '茶疏',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105986/',
+ 'id': '65529c2a2694418ba7eafdb99eadcb69',
+ 'name': '茶录',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106471/',
+ 'id': 'f79aa508341d4b61954f4c85bb50030a',
+ 'name': '脉象口诀歌',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106470/',
+ 'id': '0e04be9b41144ba097e38d7423b643ca',
+ 'name': '药性赋',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106469/',
+ 'id': 'f8e9c929ff844910b563d2aba8bc8943',
+ 'name': '傅青主女科',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106468/',
+ 'id': '6f14c2d85d2549beac21f7226386ce3e',
+ 'name': '难经',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106467/',
+ 'id': 'd89e4bdf0af0403391430d8dbef2f10e',
+ 'name': '醫學三字經',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107446/',
+ 'id': 'e6214369ca1549e88d2d829b53df1560',
+ 'name': '五戒心法',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107445/',
+ 'id': '88da1a39ec994aa29d9a2fd9018112d5',
+ 'name': '五家正宗赞',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/107444/',
+ 'id': '799a71817f3f48dc99f0e14c5f4cf45f',
+ 'name': '下部赞摩尼教',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104261/',
+ 'id': '27cb1ebb4ba04292b34a146f86fa4ebf',
+ 'name': '六十种曲投梭记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104260/',
+ 'id': '3f2052525a0a4e70abc4d46c7f03f3a4',
+ 'name': '六十种曲怀香记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108148/',
+ 'id': '6d2987d923cc4651a8809c3736a04912',
+ 'name': '修真辩难参证',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108147/',
+ 'id': 'df2c441b9aa545f398a02725065c43a7',
+ 'name': '修真九要',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108146/',
+ 'id': 'ed6a89c937eb4bd7b2392e3530e347f0',
+ 'name': '体真山人真诀语录',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108145/',
+ 'id': '64aa2b8fc8e645558b757522d8ecd122',
+ 'name': '会仙女志',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105038/',
+ 'id': 'bc7c768fdbad4beba272fc40d8d1604d',
+ 'name': '双节堂庸训',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105037/',
+ 'id': '500c621ffef14f098b4e92c587dce53c',
+ 'name': '世范',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105036/',
+ 'id': '8c81a14906cf47548846747a419d18b5',
+ 'name': '申鑒',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105035/',
+ 'id': '082f52b1f9914b5eb89e29e9fee0e1f8',
+ 'name': '孔叢子',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105985/',
+ 'id': 'f42efdfc10e34ef4a94df6a1dad5b56d',
+ 'name': '钦定钱录',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105984/',
+ 'id': '3640c6e7e5f54fb19c7707be7da2ea4a',
+ 'name': '钦定西清砚谱',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106466/',
+ 'id': '0cefe44ecbcd436794a980d76f8f6112',
+ 'name': '血證論',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106465/',
+ 'id': 'e3af57566e3443b8b63f5cd9c29e07d8',
+ 'name': '素问',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106464/',
+ 'id': '332d437e82aa4e41a18baadf39d9797e',
+ 'name': '灵枢',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106463/',
+ 'id': '71948a31055941c39caf1c4637af9a91',
+ 'name': '备急千金要方',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104259/',
+ 'id': 'ec8ef9e8d6854d3c97c85ee7b327c7e5',
+ 'name': '六十种曲彩毫记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104258/',
+ 'id': 'c92bd42be9da42e3afd62e1fab62a1db',
+ 'name': '六十种曲幽闺记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104257/',
+ 'id': 'c4d8a7a226c642eba8e284fcd1cf65ba',
+ 'name': '六十种曲寻亲记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104256/',
+ 'id': 'fb5a83e94a214bb08e6992218e03c6e2',
+ 'name': '六十种曲四贤记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108144/',
+ 'id': '2f32bbc0bce747b4bc3a73bbb448a327',
+ 'name': '仙苑编珠',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108143/',
+ 'id': 'cb94b429984d441ba717712c0bd46205',
+ 'name': '九转金丹秘诀',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108142/',
+ 'id': '4a2252797a9440bbb0b4f0634480c04e',
+ 'name': '丹道吕洞宾',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105034/',
+ 'id': '2ad50c8bbdad4ce0b0a44af38af1fcda',
+ 'name': '近思錄',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105033/',
+ 'id': '31a0f3fef5f34c2eb89c725d87bc7fa6',
+ 'name': '今世说',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105032/',
+ 'id': 'e9d8c73fdfbd440891a507c5ca54011c',
+ 'name': '家范',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105031/',
+ 'id': 'ca0892eda657435ea9ec27b1eb4aae2c',
+ 'name': '法言義疏',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105030/',
+ 'id': 'c677d0582ecf44b98f6d6639256f21aa',
+ 'name': '处世悬镜',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105983/',
+ 'id': 'dbc2c8e0b86044e09768567152a46b53',
+ 'name': '钦定西清古鉴',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105982/',
+ 'id': '84183c23558743409c8b308f0384dfbc',
+ 'name': '重修宣和博古图',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105981/',
+ 'id': '43e0b3ba7a754ad381bdc95c1cfab983',
+ 'name': '考古图',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106462/',
+ 'id': '42b75786160642f2b8931af5df325ea2',
+ 'name': '黄帝内经',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/106461/',
+ 'id': '08b1ace09a3449c49deec39d7e09bac5',
+ 'name': '金匮要略',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104255/',
+ 'id': 'c156b5e867e745a8a7739fefcd146aa5',
+ 'name': '六十种曲四喜记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104254/',
+ 'id': 'c57ac2a8f9a94645918049b110961b48',
+ 'name': '六十种曲双珠记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/104253/',
+ 'id': '4877dd0a226a4572962154442584c979',
+ 'name': '六十种曲双烈记',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108141/',
+ 'id': 'b3756f8f629f42869c50495e427a7756',
+ 'name': '中和集',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108140/',
+ 'id': '93f2fbe13d694791828be2c31fda43df',
+ 'name': '上阳子金丹大要',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108139/',
+ 'id': '30e67302d52f4d34a884eeac9fed4652',
+ 'name': '上阳子参同契分章注',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105029/',
+ 'id': '392650a77a19470ea24b157eaabb615d',
+ 'name': '菜根谭',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105028/',
+ 'id': '5be83f4a3d5e4ceab77a6c6755523fba',
+ 'name': '杜骗新书',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105027/',
+ 'id': '1562768b48c6455bb761be50bc8e34b3',
+ 'name': '杜骗新书',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105026/',
+ 'id': 'c4ae7694cab64773ba855128540f9744',
+ 'name': '解人颐',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105025/',
+ 'id': '3d320fd796aa450c9a2779071dfb73b6',
+ 'name': '颜氏家训',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105980/',
+ 'id': '16a76fcfc0e643e3b5eb36b88ae7ae7b',
+ 'name': '砚笺',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105979/',
+ 'id': '6d55f88c445c4544b27842565e5360de',
+ 'name': '歙砚说',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108138/',
+ 'id': '479132b5a6e34cfb87892fc271de5b43',
+ 'name': '上品丹法节次',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108137/',
+ 'id': '026130a6f1af428e9df8e2253a7dc0d3',
+ 'name': '七破论',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/108136/',
+ 'id': '845950823cb94ffbafe51db295786166',
+ 'name': '一贯天机直讲',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105024/',
+ 'id': '24d23d9890ec4508919db5a1d11c8bf2',
+ 'name': '颜氏家训集解',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105023/',
+ 'id': '1d48099828574a78a4e40ae52450c033',
+ 'name': '了凡四训',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105022/',
+ 'id': '58acdc86be8441cb887ef32fdb551481',
+ 'name': '菜根谭',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105021/',
+ 'id': '090bf6e7fadd40c0b98af5dddef23b89',
+ 'name': '袁氏世范',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105020/',
+ 'id': '3b19608af0fa407b8c7bd6eb28773b3b',
+ 'name': '围炉夜话',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105019/',
+ 'id': '677b35d7e6ed42a69882653d6fb0fa3e',
+ 'name': '朱子治家格言',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105018/',
+ 'id': 'f647dafe5ecb48eebc9e57bbb4ed1d8d',
+ 'name': '韵史补',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105017/',
+ 'id': 'db3d6ceb3d6f4533ae34160b3755b718',
+ 'name': '韵史',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105016/',
+ 'id': 'e2aec5710c23483a80dde1dce3c29b96',
+ 'name': '霍渭厓家训',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105015/',
+ 'id': '646fd73735cc42529ec231f7b0f5b964',
+ 'name': '闺训千字文',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [guoxue] INFO: {'cover': None,
+ 'detail_url': '/guoxue/105014/',
+ 'id': '68e4248aaa6c4de1a87f6e29e52652e4',
+ 'name': '读书训',
+ 'spilderName': 'guoxue'} 成功写入sql
+2020-08-01 21:51:30 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 15941,
+ 'downloader/request_count': 46,
+ 'downloader/request_method_count/GET': 46,
+ 'downloader/response_bytes': 232265,
+ 'downloader/response_count': 46,
+ 'downloader/response_status_count/200': 23,
+ 'downloader/response_status_count/301': 23,
+ 'elapsed_time_seconds': 15.90991,
+ 'finish_reason': 'shutdown',
+ 'finish_time': datetime.datetime(2020, 8, 1, 13, 51, 30, 331245),
+ 'item_scraped_count': 880,
+ 'log_count/INFO': 892,
+ 'log_count/WARNING': 1,
+ 'request_depth_max': 3,
+ 'response_received_count': 23,
+ 'scheduler/dequeued/redis': 46,
+ 'scheduler/enqueued/redis': 57,
+ 'start_time': datetime.datetime(2020, 8, 1, 13, 51, 14, 421335)}
+2020-08-01 21:51:30 [scrapy.core.engine] INFO: Spider closed (shutdown)
+2020-08-01 21:51:30 [scrapy.crawler] INFO: Received SIGINT twice, forcing unclean shutdown
+2020-08-02 00:15:57 [scrapy.utils.log] INFO: Scrapy 2.2.1 started (bot: dushu)
+2020-08-02 00:15:57 [scrapy.utils.log] INFO: Versions: lxml 4.5.2.0, libxml2 2.9.5, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 20.3.0, Python 3.7.6 (tags/v3.7.6:43364a7ae0, Dec 19 2019, 00:42:30) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 19.1.0 (OpenSSL 1.1.1g  21 Apr 2020), cryptography 3.0, Platform Windows-7-6.1.7601-SP1
