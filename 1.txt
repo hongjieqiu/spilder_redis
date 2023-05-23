@@ -22,7 +22,7 @@ pymssql==2.1.4
 pyOpenSSL==19.1.0
 queuelib==1.5.0
 redis==3.5.3
-requests==2.24.0
+requests==2.31.0
 Scrapy==2.2.1
 scrapy-redis==0.6.8
 service-identity==18.1.0
